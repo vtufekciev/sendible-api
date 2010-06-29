@@ -18,7 +18,7 @@ POST
  * _notify_me_: Whether to send an email notification when the message has been delivered. Accepts 1 or 0.
  * _status_: The message status. Accepts "Pending" or "Draft".
  * _timezone_offset_client_: The number of minutes required to convert the client's time zone to GMT. e.g. -120
- * _recurs_: How frequently this message should be posted. [xx][H = Hours, D = Days, W = Weeks, M = Months, Y = Years] e.g. "01H" => Every hour or "05D" => Every 5 days. 
+ * _recurs_: How frequently this message should be posted. {{{[xx][H = Hours, D = Days, W = Weeks, M = Months, Y = Years]}}} e.g. "01H" => Every hour or "05D" => Every 5 days. 
  * _recurs_until_client_: The date at which the recurring message should stop. e.g. 2012-02-24 23:59:40
  * _tags_: A comma separated list of tag keywords. Used to categorize blog posts.
 
