@@ -4,5 +4,5 @@
 The API supports the following methods to send and received Sendible data.
 
 Profile
-Services
 
+Services
