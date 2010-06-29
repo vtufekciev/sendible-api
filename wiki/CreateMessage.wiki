@@ -69,7 +69,16 @@ OR
 
 {{{
 <error>
-<type>MessageNotFoundError\</type>
-<message>Message could not be found.</message>
+<type>InsufficientCreditsError</type>
+<message>This message requires x Message Credit(s). You've already sent y messages this month and have z Message Credit(s) remaining.</message>
+</error>
+}}}
+
+OR
+
+{{{
+<error>
+<type>MessageError</type>
+<message>Message could not be created.</message>
 </error>
 }}}
