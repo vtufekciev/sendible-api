@@ -27,13 +27,13 @@ Basic authentication with username and password of the Sendible user.
     <recipient-id>6304</recipient-id>
   </user-service>
   <user-service>
-    <account-name>Facebook page - DennisHammar</account-name>
+    <account-name>Facebook page - Amazon</account-name>
     <account-type>Facebook(page)</account-type>
     <icon-url>http://sendible.com/images/facebook.png</icon-url>
     <recipient-id>6296</recipient-id>
   </user-service>
   <user-service>
-    <account-name>Facebook page - GavinHammar</account-name>
+    <account-name>Facebook page - Sendible</account-name>
     <account-type>Facebook(page)</account-type>
     <icon-url>http://sendible.com/images/facebook.png</icon-url>
     <recipient-id>6289</recipient-id>
