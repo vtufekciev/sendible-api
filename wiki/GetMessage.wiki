@@ -25,12 +25,10 @@ Basic authentication with username and password of the Sendible user.
   <user-id type="integer">1</user-id>
   <recurs>Once</recurs>
   <recurs-until-gmt type="datetime">2009-11-12T10:26:55Z</recurs-until-gmt>
-  <recurs-until-client type="datetime">2009-11-12T12:26:55Z</recurs-until-client
->
+  <recurs-until-client type="datetime">2009-11-12T12:26:55Z</recurs-until-client>
   <message-id type="integer">5</message-id>
   <message-text>test to FF.</message-text>
-  <message-rich-text>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transi
-tional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&q
+  <message-rich-text>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&q
 uot;&gt;
 &lt;html&gt;
 &lt;head&gt;
