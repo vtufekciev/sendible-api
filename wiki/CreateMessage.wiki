@@ -10,7 +10,7 @@ xml, json
 POST
 
 ====Parameters:====
- * _send_to_: A comma separated list of service id's retrieved using the [Services] call.
+ * _send_to_: A comma separated list of recipient_id's retrieved using the [Services] call.
  * _subject_: The message subject.
  * _message_text_: The plain text version of the message.
  * _message_rich_text_: Marked-up version of the message. Accepts HTML.
