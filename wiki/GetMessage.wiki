@@ -1,13 +1,66 @@
-#summary One-sentence summary of this page.
+To retrieve the details about a specific Sendible message, just make a GET call using basic authentication with the user's Sendible username and password
 
-= Introduction =
+====URL:====
+http://sendible.com/api/v1/message.format?type=type
 
-Add your content here.
+====Formats:====
+xml, json
 
+====HTTP Methods:====
+GET
 
-= Details =
+====Parameters:====
+message_id: The message's id.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+====Authentication:====
+Basic authentication with username and password of the Sendible user.
+
+====Success Response:====
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<pending-message>
+  <status>Sent</status>
+  <subject></subject>
+  <tags nil="true"></tags>
+  <user-id type="integer">1</user-id>
+  <recurs>Once</recurs>
+  <recurs-until-gmt type="datetime">2009-11-12T10:26:55Z</recurs-until-gmt>
+  <recurs-until-client type="datetime">2009-11-12T12:26:55Z</recurs-until-client
+>
+  <message-id type="integer">5</message-id>
+  <message-text>test to FF.</message-text>
+  <message-rich-text>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transi
+tional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&q
+uot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;test to FF.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</message-rich-text>
+  <notify-me type="integer">0</notify-me>
+  <send-date-gmt type="datetime">2009-11-12T10:26:55Z</send-date-gmt>
+  <send-date-client type="datetime">2009-11-12T12:26:55Z</send-date-client>
+  <send-to>&quot;Friendfeed - hamgav&quot; &lt;5453&gt;</send-to>
+  <timezone-offset-client type="integer">-120</timezone-offset-client>
+</pending-message>
+}}}
+
+====Error Response:====
+{{{
+<error>
+<type>InvalidUsernamePassword</type>
+<message>Username/password is invalid.</message>
+</error>
+}}}
+
+OR
+
+{{{
+<error>
+<type>MessageNotFoundError\</type>
+<message>Message could not be found.</message>
+</error>
+}}}
