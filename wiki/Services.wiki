@@ -1,21 +1,21 @@
 To retrieve the user's list of social media services that they've added to their Sendible account, just make a GET call using basic authentication with the user's Sendible username and password
 
-=====URL:=====
+====URL:====
 http://sendible.com/api/v1/services.format?type=type
 
-=====Formats:=====
+====Formats:====
 xml, json
 
-=====HTTP Methods:=====
+====HTTP Methods:====
 GET
 
-=====Parameters:=====
+====Parameters:====
 type: social, email, sms
 
-=====Authentication:=====
+====Authentication:====
 Basic authentication with username and password of the Sendible user.
 
-=====Success Response:=====
+====Success Response:====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
 <user-services type="array">
@@ -40,7 +40,7 @@ Basic authentication with username and password of the Sendible user.
 </user-services>
 }}}
 
-=====Error Response:=====
+====Error Response:====
 {{{
 <error>
 <type>InvalidUsernamePassword</type>
