@@ -10,7 +10,7 @@ xml, json
 GET
 
 ====Parameters:====
-type: social, email, sms
+ * {{{type}}}: social, email, sms
 
 ====Authentication:====
 Basic authentication with username and password of the Sendible user.
