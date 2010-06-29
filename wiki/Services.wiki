@@ -1,13 +1,58 @@
-#summary One-sentence summary of this page.
+To retrieve the user's list of social media services that they've added to their Sendible account, just make a GET call using basic authentication with the user's Sendible username and password
 
-= Introduction =
+=====URL:=====
+http://sendible.com/api/v1/services.format?type=type
 
-Add your content here.
+=====Formats:=====
+xml, json
 
+=====HTTP Methods:=====
+GET
 
-= Details =
+=====Parameters:=====
+type: social, email, sms
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+=====Authentication:=====
+Basic authentication with username and password of the Sendible user.
+
+=====Success Response:=====
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<user-services type="array">
+  <user-service>
+    <account-name>Facebook note - SendibleWeb</account-name>
+    <account-type>Facebook(note)</account-type>
+    <icon-url>http://sendible.com/images/facebook.png</icon-url>
+    <recipient-id>6304</recipient-id>
+  </user-service>
+  <user-service>
+    <account-name>Facebook page - DennisHammar</account-name>
+    <account-type>Facebook(page)</account-type>
+    <icon-url>http://sendible.com/images/facebook.png</icon-url>
+    <recipient-id>6296</recipient-id>
+  </user-service>
+  <user-service>
+    <account-name>Facebook page - GavinHammar</account-name>
+    <account-type>Facebook(page)</account-type>
+    <icon-url>http://sendible.com/images/facebook.png</icon-url>
+    <recipient-id>6289</recipient-id>
+  </user-service>
+</user-services>
+}}}
+
+=====Error Response:=====
+{{{
+<error>
+<type>InvalidUsernamePassword</type>
+<message>Username/password is invalid.</message>
+</error>
+}}}
+
+OR
+
+{{{
+<error>
+<type>ServicesNotFound</type>
+<message>No services could be found.</message>
+</error>
+}}}
