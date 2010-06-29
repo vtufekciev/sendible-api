@@ -15,10 +15,10 @@ Basic authentication with username and password of the Sendible user.
 ====Success Response:====
 {{{
 <user>
-  <email>martinehammar@gmail.com</email>
-  <fullname>Martine</fullname>
+  <email>testing@gmail.com</email>
+  <fullname>Test User</fullname>
   <id type="integer">3</id>
-  <login>martine</login>
+  <login>testuser</login>
   <is-pro type="boolean">true</is-pro>
   <account-type-name>Marketer</account-type-name>
   <total-credits-available type="decimal">2000</total-credits-available>
