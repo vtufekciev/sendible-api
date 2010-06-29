@@ -5,4 +5,5 @@ The API supports the following methods to send and receive Sendible data.
  * [Services]
  * Messages
     * [GetMessage]
+    * [MessageRecipients]
     * [CreateMessage]
