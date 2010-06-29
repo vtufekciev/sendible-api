@@ -1,7 +1,7 @@
 To retrieve the user's profile, just make a GET call using basic authentication with the user's Sendible username and password
 
 ====URL:====
-http://sendible.com/api/v1/profile.format
+http://sendible.com/api/v1/profile._format_
 
 ====Formats:====
 xml, json
