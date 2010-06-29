@@ -18,7 +18,6 @@ Basic authentication with username and password of the Sendible user.
 ====Success Response:====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
 <user-services type="array">
   <user-service>
     <account-name>Twitter - oauth - sendible</account-name>
