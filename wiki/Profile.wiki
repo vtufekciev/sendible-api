@@ -1,18 +1,18 @@
 To retrieve the user's profile, just make a GET call using basic authentication with the user's Sendible username and password
 
-===URL:===
+====URL:====
 http://sendible.com/api/v1/profile.format
 
-===Formats:===
+====Formats:====
 xml, json
 
-===HTTP Methods:===
+====HTTP Methods:====
 GET
 
-===Authentication:===
+====Authentication:====
 Basic authentication with username and password of the Sendible user.
 
-===Success Response:===
+====Success Response:====
 <user>
   <email>martinehammar@gmail.com</email>
   <fullname>Martine</fullname>
@@ -23,7 +23,7 @@ Basic authentication with username and password of the Sendible user.
   <total-credits-available type="decimal">2000</total-credits-available>
 </user>
 
-===Error Response:===
+====Error Response:====
 <error>
 <type>InvalidUsernamePassword</type>
 <message>Username/password is invalid.</message>
