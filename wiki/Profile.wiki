@@ -1,13 +1,30 @@
-#Sendible profile method.
+To retrieve the user's profile, just make a GET call using basic authentication with the user's Sendible username and password
 
-= Profile =
+===URL:===
+http://sendible.com/api/v1/profile.format
 
-Returns information about the authenticated user's profile.
+===Formats:===
+xml, json
 
+===HTTP Methods:===
+GET
 
-= Details =
+===Authentication:===
+Basic authentication with username and password of the Sendible user.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+===Success Response:===
+<user>
+  <email>martinehammar@gmail.com</email>
+  <fullname>Martine</fullname>
+  <id type="integer">3</id>
+  <login>martine</login>
+  <is-pro type="boolean">true</is-pro>
+  <account-type-name>Marketer</account-type-name>
+  <total-credits-available type="decimal">2000</total-credits-available>
+</user>
+
+===Error Response:===
+<error>
+<type>InvalidUsernamePassword</type>
+<message>Username/password is invalid.</message>
+</error>
