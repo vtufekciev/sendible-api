@@ -10,7 +10,7 @@ xml, json
 GET
 
 ====Parameters:====
-message_id: The message's id.
+ * _message_id_: The message's id.
 
 ====Authentication:====
 Basic authentication with username and password of the Sendible user.
