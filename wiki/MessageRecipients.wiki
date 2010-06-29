@@ -1,4 +1,4 @@
-To retrieve list of message recipients for a given Sendible message, make a GET call using basic authentication with the user's Sendible username and password
+To retrieve a list of message recipients for a given Sendible message, make a GET call using basic authentication with the user's Sendible username and password
 
 ====URL:====
 http://sendible.com/api/v1/message-recipients.format?type=type
