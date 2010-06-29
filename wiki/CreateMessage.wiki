@@ -10,7 +10,7 @@ xml, json
 POST
 
 ====Parameters:====
- * {{{recipient_ids}}}: A comma separated list of {{{recipient_id}}}'s retrieved using the [Services] call.
+ * {{{send_to}}}: A comma separated list of {{{recipient_id}}}'s retrieved using the [Services] call.
  * {{{message_text}}}: The plain text version of the message.
  * {{{subject}}}: Optional. The message subject.
  * {{{message_rich_text}}}: Optional. Marked-up version of the message. Accepts HTML.
