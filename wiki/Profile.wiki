@@ -13,6 +13,7 @@ GET
 Basic authentication with username and password of the Sendible user.
 
 ====Success Response:====
+{{{
 <user>
   <email>martinehammar@gmail.com</email>
   <fullname>Martine</fullname>
@@ -22,9 +23,12 @@ Basic authentication with username and password of the Sendible user.
   <account-type-name>Marketer</account-type-name>
   <total-credits-available type="decimal">2000</total-credits-available>
 </user>
+}}}
 
 ====Error Response:====
+{{{
 <error>
 <type>InvalidUsernamePassword</type>
 <message>Username/password is invalid.</message>
 </error>
+}}}
