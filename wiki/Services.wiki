@@ -10,7 +10,7 @@ xml, json
 GET
 
 ====Parameters:====
- * {{{type}}}: social, email, sms
+ * {{{type}}}: social, email, sms, group
  * {{{filter}}}: Optional. Filter services and/or recipients by keyword.
 
 ====Authentication:====
