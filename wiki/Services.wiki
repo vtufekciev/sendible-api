@@ -14,7 +14,7 @@ GET
  * {{{filter}}}: Optional. Filter services and/or recipients by keyword.
 
 ====Authentication:====
-Basic authentication with username and password of the Sendible user.
+Basic authentication with username and password or <a href="http://sendible.com/api">api key</a> belonging to the Sendible user.
 
 ====Success Response:====
 {{{
