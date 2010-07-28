@@ -12,6 +12,8 @@ GET
 ====Parameters:====
  * {{{type}}}: social, email, sms, group
  * {{{filter}}}: Optional. Filter services and/or recipients by keyword.
+ * {{{per_page}}}: Optional. Number of results to return per page. Default: {{{100}}}
+ * {{{page}}}: Optional. The page number to return. Default: {{{1}}}
 
 ====Authentication:====
 Basic authentication with username and password or <a href="http://sendible.com/api">api key</a> belonging to the Sendible user.
@@ -25,18 +27,21 @@ Basic authentication with username and password or <a href="http://sendible.com/
     <account-type>Facebook(note)</account-type>
     <icon-url>http://sendible.com/images/facebook.png</icon-url>
     <recipient-id>6304</recipient-id>
+    <total-pages type="integer">4</total-pages>
   </user-service>
   <user-service>
     <account-name>Facebook page - Amazon</account-name>
     <account-type>Facebook(page)</account-type>
     <icon-url>http://sendible.com/images/facebook.png</icon-url>
     <recipient-id>6296</recipient-id>
+    <total-pages type="integer">4</total-pages>
   </user-service>
   <user-service>
     <account-name>Facebook page - Sendible</account-name>
     <account-type>Facebook(page)</account-type>
     <icon-url>http://sendible.com/images/facebook.png</icon-url>
     <recipient-id>6289</recipient-id>
+    <total-pages type="integer">4</total-pages>
   </user-service>
 </user-services>
 }}}
