@@ -47,12 +47,12 @@ uot;&gt;
     <photo> 
       <id type="integer">484</id> 
       <name>logo1w.png</name> 
-      <url>http://sendible.s3.amazonaws.com/_files/484/logo1w.png</url> 
+      <file_url>http://sendible.s3.amazonaws.com/_files/484/logo1w.png</file_url> 
     </photo> 
     <photo> 
       <id type="integer">485</id> 
       <name>n1727389556_1512.jpg</name> 
-      <url>http://sendible.s3.amazonaws.com/_files/485/n1727389556_1512.jpg</url> 
+      <file_url>http://sendible.s3.amazonaws.com/_files/485/n1727389556_1512.jpg</file_url> 
     </photo> 
   </photos> 
 </pending-message>
