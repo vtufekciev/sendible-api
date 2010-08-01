@@ -30,7 +30,7 @@ Basic authentication with username and password or <a href="http://sendible.com/
 ====Success Response:====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
-<pending-message>
+<msg>
   <status>Pending</status>
   <subject></subject>
   <tags nil="true"></tags>
@@ -67,7 +67,7 @@ uot;&gt;
       <file_url>http://sendible.s3.amazonaws.com/_files/485/n1727389556_1512.jpg</file_url> 
     </photo> 
   </photos> 
-</pending-message>
+</msg>
 }}}
 
 ====Error Responses:====
