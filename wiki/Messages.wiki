@@ -11,9 +11,9 @@ GET
 
 ====Parameters:====
  * {{{status}}}: Optional. The message status. Possible values are {{{Pending}}}, {{{Draft}}} or {{{Sent}}}.
-* {{{filter}}}: Optional. Filter messages by keyword. 
-* {{{per_page}}}: Optional. The number of messages to return per page.
-* {{{page}}}: Optional. The page number to return. 
+ * {{{filter}}}: Optional. Filter messages by keyword. 
+ * {{{per_page}}}: Optional. The number of messages to return per page.
+ * {{{page}}}: Optional. The page number to return. 
 
 ====Authentication:====
 Basic authentication with username and password or <a href="http://sendible.com/api">api key</a> belonging to the Sendible user.
