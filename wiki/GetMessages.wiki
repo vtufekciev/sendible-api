@@ -1,4 +1,4 @@
-To retrieve a list of the user's Pending/Sent/Draft Sendible messages, make a GET call using basic authentication with the user's Sendible username and password
+To retrieve a list of the user's Pending/Sent/Draft Sendible messages, make a GET call using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v1/messages.format
