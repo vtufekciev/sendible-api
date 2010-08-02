@@ -1,4 +1,4 @@
-To updatecontact, make a PUT call using basic authentication with the user's Sendible username and password
+To update a contact, make a PUT call using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v1/contact.format
