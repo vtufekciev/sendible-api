@@ -11,8 +11,8 @@ PUT
 
 ====Parameters:====
  * {{{message_id}}}: The id of the message to be updated.
- * {{{send_to}}}: A comma separated list of {{{recipient_id}}}'s retrieved using the [Services] call.
- * {{{message_text}}}: The plain text version of the message.
+ * {{{send_to}}}: Optional. A comma separated list of {{{recipient_id}}}'s retrieved using the [Services] call.
+ * {{{message_text}}}: Optional. The plain text version of the message.
  * {{{subject}}}: Optional. The message subject.
  * {{{message_rich_text}}}: Optional. Marked-up version of the message. Accepts HTML.
  * {{{send_date_client}}}: Optional. The date and time to send the message. Format: {{{yyyy-MM-dd HH:mm}}} e.g. {{{2012-02-24 23:59:40}}}
