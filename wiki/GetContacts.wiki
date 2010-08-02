@@ -40,6 +40,14 @@ Basic authentication with username and password or <a href="http://sendible.com/
     <tel></tel> 
     <unsubscribed type="integer">1</unsubscribed> 
     <zip></zip> 
+    <contact-accounts type="array"> 
+      <contact-account> 
+        <accountTypeName>Facebook Wall Post</accountTypeName> 
+        <account-id>121212111</account-id> 
+        <id type="integer">6304</id> 
+        <username>sendibleweb</username> 
+      </contact-account> 
+    </contact-accounts>
   </contact> 
 </contacts> 
 }}}
