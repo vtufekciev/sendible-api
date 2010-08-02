@@ -1,4 +1,4 @@
-To retrieve the details for a specific contact, make a GET call using basic authentication with the user's Sendible username and password
+To retrieve the details for a specific contact, make a GET call using basic authentication .
 
 ====URL:====
 http://sendible.com/api/v1/contact.format
