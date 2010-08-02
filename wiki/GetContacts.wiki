@@ -1,4 +1,4 @@
-To retrieve a list of the user's contacts, make a GET call using basic authentication with the user's Sendible username and password.
+Retrieves a list of the authenticated user's contacts.
 
 ====URL:====
 http://sendible.com/api/v1/contacts.format
