@@ -1,4 +1,4 @@
-To retrieve the user's list of social media services that they've added to their Sendible account, just make a GET call using basic authentication with the user's Sendible username and password
+To retrieve the user's list of social media services, groups and contacts just make a GET call using basic authentication with the user's Sendible username and password
 
 ====URL:====
 http://sendible.com/api/v1/services.format?type=type
