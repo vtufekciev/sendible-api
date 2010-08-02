@@ -1,4 +1,4 @@
-To retrieve the details about a specific Sendible message, make a GET call using basic authentication with the user's Sendible username and password
+Retrieves the details about a specific Sendible message.
 
 ====URL:====
 http://sendible.com/api/v1/message.format
