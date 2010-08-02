@@ -1,4 +1,4 @@
-To delete a message, make a DELETE call using basic authentication with the user's Sendible username and password
+To delete a message, make a DELETE call using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v1/message.format
