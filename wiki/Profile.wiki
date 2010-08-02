@@ -22,6 +22,7 @@ Basic authentication with username and password or <a href="http://sendible.com/
   <is-pro type="boolean">true</is-pro>
   <account-type-name>Marketer</account-type-name>
   <total-credits-available type="decimal">2000</total-credits-available>
+  <api-key>xxxx</api-key> 
 </user>
 }}}
 
