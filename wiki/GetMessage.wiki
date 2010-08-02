@@ -70,7 +70,7 @@ OR
 
 {{{
 <error>
-<type>MessageNotFoundError\</type>
+<type>MessageNotFoundError</type>
 <message>Message could not be found.</message>
 </error>
 }}}
