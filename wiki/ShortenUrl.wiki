@@ -1,4 +1,4 @@
-To shorten a given url, make a GET call using basic authentication with the user's Sendible username and password. Where availabel, Sendible will use the authenticated user's link shortening preferences.
+To shorten a given url, make a GET call using basic authentication with the user's Sendible username and api_key/password. Where available, Sendible will use the authenticated user's link shortening preferences.
 
 ====URL:====
 http://sendible.com/api/v1/shorten.format
