@@ -1,4 +1,4 @@
-To create or schedule a Sendible message for a given user, make a POST call using basic authentication with the user's Sendible username and password
+To create or schedule a Sendible message for a given user, make a POST call using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v1/message.format
