@@ -1,7 +1,7 @@
 Retrieves all the user profiles belonging to the authenticated user. If the authenticated is a white label or agency administrator, then all users belonging to the white label will be returned. 
 
 ====URL:====
-http://sendible.com/api/v1/profile.format
+http://sendible.com/api/v1/profiles.format
 
 ====Formats:====
 xml, json
