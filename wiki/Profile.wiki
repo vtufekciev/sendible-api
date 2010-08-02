@@ -1,4 +1,4 @@
-To retrieve the user's profile, just make a GET call using basic authentication.
+Retrieve the authenticated user's profile.
 
 ====URL:====
 http://sendible.com/api/v1/profile.format
