@@ -1,0 +1,32 @@
+To shorten a given url, make a GET call using basic authentication with the user's Sendible username and password. Where availabel, Sendible will use the authenticated user's link shortening preferences.
+
+====URL:====
+http://sendible.com/api/v1/shorten.format
+
+====Formats:====
+xml, json
+
+====HTTP Methods:====
+GET
+
+====Parameters:====
+ * {{{url}}}: The long url to shorten.
+
+====Authentication:====
+Basic authentication with username and password or <a href="http://sendible.com/api">api key</a> belonging to the Sendible user.
+
+====Success Response:====
+{{{
+<result>
+ <status>success</status>
+ <url>http://is.gd/dWSYh</url>
+</result>
+}}}
+
+====Error Response:====
+{{{
+<error>
+<type>InvalidUsernamePassword</type>
+<message>Username/password is invalid.</message>
+</error>
+}}}
