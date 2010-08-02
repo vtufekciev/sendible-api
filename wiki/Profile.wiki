@@ -1,4 +1,4 @@
-Retrieve the authenticated user's profile.
+Retrieve the authenticated user's Sendible profile.
 
 ====URL:====
 http://sendible.com/api/v1/profile.format
