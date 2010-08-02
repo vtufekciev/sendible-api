@@ -78,7 +78,7 @@ Basic authentication with username and password or <a href="http://sendible.com/
 
 {{{
 <error>
-<type>ContactCreationError</type>
-<message>Contact could not be created.</message>
+<type>ContactSaveError</type>
+<message>Contact could not be saved.</message>
 </error>
 }}}
