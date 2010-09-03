@@ -54,6 +54,7 @@ Basic authentication with username and password or <a href="http://sendible.com/
   <unsubscribed type="integer">0</unsubscribed> 
   <zip nil="true"></zip> 
   <contact-accounts type="array"/> 
+  <contact-fields type="array"/>
 </contact> 
 }}}
 
