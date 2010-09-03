@@ -7,7 +7,7 @@ http://sendible.com/api/v1/contact_field.format
 xml, json
 
 ====HTTP Methods:====
-POST or PUT
+POST
 
 ====Parameters:====
  * {{{contact_id}}}: Required. The contact id.
