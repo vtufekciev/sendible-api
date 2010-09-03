@@ -10,7 +10,9 @@ xml, json
 GET
 
 ====Parameters:====
- * {{{filter}}}: Optional. Filter contacts by keyword. 
+ * {{{filter}}}: Optional. Filter contacts by keyword.
+ * {{{field_name}}}: Optional. Find contacts that have this specific field name set.  
+ * {{{field_value}}}: Optional. Find contacts that have this specific field value set.
  * {{{per_page}}}: Optional. The number of messages to return per page.
  * {{{page}}}: Optional. The page number to return. 
 
