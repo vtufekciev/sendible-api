@@ -48,6 +48,12 @@ Basic authentication with username and password or <a href="http://sendible.com/
         <username>sendibleweb</username> 
       </contact-account> 
     </contact-accounts>
+    <contact-fields>
+      <contact-field> 
+        <field-name>password</field-name> 
+        <field-value>1234</field-value> 
+      </contact-field> 
+    </contact-fields>
   </contact> 
 </contacts> 
 }}}
