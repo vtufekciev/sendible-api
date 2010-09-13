@@ -1,4 +1,4 @@
-Retrieve the details for a given {{report_id}} by making a GET request using basic authentication.
+Retrieve the details for a given {{{report_id}}} by making a GET request using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v1/message-reports.format
