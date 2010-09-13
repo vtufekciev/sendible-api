@@ -10,7 +10,7 @@ xml, json
 GET
 
 ====Parameters:====
- * {{{report_id}}}: The message report id. You can find message reports for a given user here.
+ * {{{report_id}}}: The message report id. Retrieved using the <a href="http://code.google.com/p/sendible-api/wiki/GetMessageReports">message reports</a> call.
  
 ====Authentication:====
 Basic authentication with username and password or <a href="http://sendible.com/api">api key</a> belonging to the Sendible user.
