@@ -1,0 +1,39 @@
+Allows you to remove photos and files from a Sendible message.
+
+====URL:====
+http://sendible.com/api/v1/media.format
+
+====Formats:====
+xml, json
+
+====HTTP Methods:====
+DELETE
+
+====Parameters:====
+ * {{{media_id}}}: The id of the photo or file.
+
+====Authentication:====
+Basic authentication with username and password or <a href="http://sendible.com/api">api key</a> belonging to the Sendible user.
+
+====Success Response:====
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<result><status>success</status></result>
+}}}
+
+====Error Response:====
+{{{
+<error>
+<type>InvalidUsernamePassword</type>
+<message>Username/password is invalid.</message>
+</error>
+}}}
+
+OR
+
+{{{
+<error>
+<type>MediaNotFoundError</type>
+<message>Media could not be found.</message>
+</error>
+}}}
