@@ -1,4 +1,4 @@
-Allows you to attach media to a specific Sendible message.
+Allows you to attach photos and files to a specific Sendible message.
 
 ====URL:====
 http://sendible.com/api/v1/media.format
