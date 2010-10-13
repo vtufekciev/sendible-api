@@ -10,7 +10,7 @@ xml, json
 GET
 
 ====Parameters:====
- * {{{type}}}: social, email, sms, group
+ * {{{type}}}: all, social, email, sms, group, contacts
  * {{{filter}}}: Optional. Filter services and/or recipients by keyword.
  * {{{per_page}}}: Optional. Number of results to return per page. Default: {{{100}}}
  * {{{page}}}: Optional. The page number to return. Default: {{{1}}}
