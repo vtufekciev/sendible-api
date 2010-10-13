@@ -35,10 +35,6 @@ he stages have classic signs. Clueing in to them can help you sidestep a workout
 e stages have classic signs. Clueing in to them can help you sidestep a workout
 slump: http://bit.ly/cXrFix</message-text>
   <report-id type="integer">1069562</report-id>
-  <stat-chart>http://chart.apis.google.com/chart?chtt=Message Statistics&amp;chd
-s=0,2004&amp;chxl=0:|Clicks|Comments|Recipients&amp;cht=bvs&amp;chd=t:1822,12,1&
-amp;chs=350x160&amp;chco=1166BB|377EC6|5D97D1|83AFDC|A9C8E7|CFE0F1&amp;chbh=a&am
-p;chxt=x&amp;chdl=Clicks (1822)|Comments (12)|Recipients (1)</stat-chart>
   <subject></subject>
   <score type="decimal">1834.0</score>
   <messages-photos type="array">
@@ -69,24 +65,7 @@ e-name>
       <stat-value type="integer">12</stat-value>
     </message-statistic>
   </message-statistics>
-  <click-statistics type="array">
-    <click-statistic>
-      <actual-url>http://www.active.com/fitness/Articles/4-Stages-of-Exercise-Bu
-rnout-And-How-to-Avoid-Them.htm?cmp=18-884&amp;utm_source=sendible&amp;utm_mediu
-m=feed</actual-url>
-      <code>Click</code>
-      <stat-value type="decimal">1822.0</stat-value>
-      <url>http://bit.ly/cXrFix</url>
-      <click-chart>http://chart.apis.google.com/chart?chtt=Daily Clicks&amp;chds
-=384,1475&amp;chxl=0:|11 Sep 10|12 Sep 10|1:|384|737|1475&amp;chxt=x,y&amp;cht=l
-c&amp;chd=t:1341,481&amp;chs=300x160&amp;chco=1166BB</click-chart>
-      <referer-chart>http://chart.apis.google.com/chart?chtt=Click Referers&amp;
-cht=p&amp;chd=t:391,1,1,11,1416,2&amp;chs=300x160&amp;chdl=direct (391)|facebook
-iggadget.appspot.com (1)|m.facebook.com (1)|touch.facebook.com (11)|www.facebook
-.com (1416)|www.yoono.com (2)&amp;chco=1166BB</referer-chart>
-    </click-statistic>
-  </click-statistics>
-  <responses type="array">
+ <responses type="array">
     <response>
       <avatar>http://profile.ak.fbcdn.net/profile-ak-snc1/v22944/426/25/q1000004
 89381805_5137.jpg</avatar>
