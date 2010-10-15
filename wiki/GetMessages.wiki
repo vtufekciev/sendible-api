@@ -16,7 +16,7 @@ GET
  * {{{page}}}: Optional. The page number to return. 
 
 ====Authentication:====
-Basic authentication with username and password or <a href="http://sendible.com/api">api key</a> belonging to the Sendible user.
+Basic authentication with username and password or remote API key belonging to the Sendible user.
 
 ====Success Response:====
 {{{
