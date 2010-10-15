@@ -10,6 +10,7 @@ xml, json
 GET
 
 ====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{contact_id}}}: The contact id.
 
 ====Authentication:====
