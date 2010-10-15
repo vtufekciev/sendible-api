@@ -10,6 +10,7 @@ xml, json
 GET
 
 ====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{type}}}: Possible values are {{{all}}}, {{{social}}}, {{{email}}}, {{{sms}}}, {{{group}}}, {{{contacts}}}
  * {{{filter}}}: Optional. Filter services and/or recipients by keyword.
  * {{{per_page}}}: Optional. Number of results to return per page. Default: {{{100}}}
