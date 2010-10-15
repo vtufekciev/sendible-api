@@ -10,6 +10,7 @@ xml, json
 DELETE
 
 ====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{message_id}}}: The message's id.
 
 ====Authentication:====
