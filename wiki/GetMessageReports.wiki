@@ -10,6 +10,7 @@ xml, json
 GET
 
 ====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{filter}}}: Optional. Filter reports by keyword. 
  * {{{per_page}}}: Optional. The number of messages to return per page.
  * {{{page}}}: Optional. The page number to return. 
