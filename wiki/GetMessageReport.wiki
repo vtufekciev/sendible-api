@@ -13,7 +13,7 @@ GET
  * {{{report_id}}}: The message report id. Retrieved using the <a href="http://code.google.com/p/sendible-api/wiki/GetMessageReports">message reports</a> call.
  
 ====Authentication:====
-Basic authentication with username and password or remote api key belonging to the Sendible user.
+Basic authentication with username and password or remote API key belonging to the Sendible user.
 
 ====Success Response:====
 {{{
