@@ -10,6 +10,7 @@ xml, json
 POST
 
 ====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{send_to}}}: A comma separated list of {{{recipient_id}}}'s retrieved using the [Services] call.
  * {{{message_text}}}: The plain text version of the message.
  * {{{subject}}}: Optional. The message subject.
