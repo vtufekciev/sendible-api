@@ -12,6 +12,9 @@ GET
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
 
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+
 ====Success Response:====
 {{{
 <user>
