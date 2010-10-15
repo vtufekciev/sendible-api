@@ -10,6 +10,7 @@ xml, json
 PUT
 
 ====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{message_id}}}: The id of the message to be updated.
  * {{{send_to}}}: Optional. A comma separated list of {{{recipient_id}}}'s retrieved using the [Services] call.
  * {{{message_text}}}: Optional. The plain text version of the message.
