@@ -10,6 +10,7 @@ xml, json
 POST
 
 ====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{contact_id}}}: Required. The contact id.
  * {{{field_name}}}: Required. The name of the field you would like to create or update.  
  * {{{field_value}}}: Required. The value of the {{{field_name}}} that you would like to set.
