@@ -10,6 +10,7 @@ xml, json
 DELETE
 
 ====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{media_id}}}: The id of the photo or file to remove.
 
 ====Authentication:====
