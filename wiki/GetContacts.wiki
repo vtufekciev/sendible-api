@@ -10,6 +10,7 @@ xml, json
 GET
 
 ====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{filter}}}: Optional. Filter contacts by keyword.
  * {{{field_name}}}: Optional. Find contacts that have had this specific field name set using <a href="http://code.google.com/p/sendible-api/wiki/CreateContactField">this method</a>.  
  * {{{field_value}}}: Optional. Find contacts that have had this specific field value set using <a href="http://code.google.com/p/sendible-api/wiki/CreateContactField">this method</a>.
