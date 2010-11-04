@@ -91,7 +91,7 @@ he dates and event type you want and then narrow the search with your zip code.
       <responder-fullname>Audrey Hill</responder-fullname>
       <responder-identifier>605702829</responder-identifier>
       <response-type>Comment</response-type>
-      <service-name>Facebook(page)</service-name>
+      <service-description>Facebook Fan Page</service-description> 
     </response>
  </responses>
 </message-report>
