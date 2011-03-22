@@ -24,7 +24,6 @@ Basic authentication with username and password or remote API key belonging to t
   <login>testuser</login>
   <is-pro type="boolean">true</is-pro>
   <account-type-name>Marketer</account-type-name>
-  <total-credits-available type="decimal">12279.0</total-credits-available> 
   <tokens-remaining type="decimal">347.0</tokens-remaining> 
   <message-credits-remaining type="integer">11585</message-credits-remaining> 
   <api-key>xxxx</api-key> 
