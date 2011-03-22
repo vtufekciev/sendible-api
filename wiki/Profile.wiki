@@ -26,6 +26,9 @@ Basic authentication with username and password or remote API key belonging to t
   <account-type-name>Marketer</account-type-name>
   <total-credits-available type="decimal">2000</total-credits-available>
   <api-key>xxxx</api-key> 
+  <contact-count type="integer">8105</contact-count> 
+  <group-count type="integer">20</group-count> 
+  <service-count type="integer">88</service-count> 
 </user>
 }}}
 
