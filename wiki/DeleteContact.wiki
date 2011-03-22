@@ -1,4 +1,4 @@
-To delete a message, make a DELETE call using basic authentication.
+To delete a contact, make a DELETE call using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v1/message.format
