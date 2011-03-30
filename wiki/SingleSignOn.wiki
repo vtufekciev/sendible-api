@@ -1,0 +1,25 @@
+Log the user in to their Sendible account and direct to the login page.
+
+====URL:====
+http://sendible.com/api/v1/singlesignon
+
+====Formats:====
+xml, json
+
+====HTTP Methods:====
+GET
+
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{redirect_to}}}: The URL to direct users to after signing in.
+
+====Error Response:====
+{{{
+<error>
+<type>InvalidUsernamePassword</type>
+<message>Username/password is invalid.</message>
+</error>
+}}}
