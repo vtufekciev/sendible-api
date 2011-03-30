@@ -14,7 +14,7 @@ Basic authentication with username and password or remote API key belonging to t
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{redirect_to}}}: The URL to direct users to after signing in.
+ * {{{redirect_to}}}: Optional. The URL to direct users to after signing in. If you leave this out, the user will be redirected to the Sendible or White Label homepage.
 
 ====Error Response:====
 {{{
