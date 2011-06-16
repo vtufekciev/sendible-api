@@ -12,7 +12,7 @@ Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 POST
 
 ====Authentication:====
-Basic authentication with username and password or remote API key belonging to the Sendible user.
+Basic authentication with username and password or remote API key belonging to the administrator of the white label site.
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
