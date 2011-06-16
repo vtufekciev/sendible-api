@@ -4,7 +4,7 @@ To retrieve a list of the user's message reports, make a GET call using basic au
 http://sendible.com/api/v1/message-reports.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
