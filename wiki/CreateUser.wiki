@@ -16,7 +16,7 @@ Basic authentication with username and password or remote API key belonging to t
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{account_type_id}}}: The id of the account type that this user will be set to. For available account type id's, please contact support@sendible.com. Use 0 to create a trial.
+ * {{{account_type_id}}}: The ID of the account type that this user will be set to. To retrieve available account type ID's, please use <a href="<a href="http://code.google.com/p/sendible-api/wiki/GetAccountTypes">this API call</a>.
  * {{{white_label_code}}}: The unique code that identifies your white label site. You can locate this code in the admin section of your white label under details.
  * {{{login}}}: The username of the new user. Must be unique.
  * {{{password}}}: The password of the new user.
