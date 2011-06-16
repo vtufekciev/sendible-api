@@ -4,7 +4,7 @@ Retrieve the details for a given {{{report_id}}} by making a GET request using b
 http://sendible.com/api/v1/message-report.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
