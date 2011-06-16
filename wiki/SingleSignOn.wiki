@@ -3,9 +3,6 @@ Log the user in to their Sendible account and direct to the default page or a pa
 ====URL:====
 http://sendible.com/api/v1/single-sign-on
 
-====Formats:====
-xml, json
-
 ====HTTP Methods:====
 GET
 
