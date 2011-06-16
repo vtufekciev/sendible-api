@@ -4,7 +4,7 @@ Retrieve the list of social media services, groups and contacts belonging to the
 http://sendible.com/api/v1/services.format?type=type
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
