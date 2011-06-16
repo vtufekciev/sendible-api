@@ -4,7 +4,7 @@ To retrieve a list of message recipients for a given Sendible message, make a GE
 http://sendible.com/api/v1/message-recipients.format?type=type
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
