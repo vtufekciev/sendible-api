@@ -4,7 +4,7 @@ Allows you to attach photos and files to a specific Sendible message.
 http://sendible.com/api/v1/media.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 POST
