@@ -22,54 +22,18 @@ Basic authentication with username and password or remote API key belonging to t
 ====Success Response:====
 {{{
 <account-types type="array">
-<account-type>
-<description>Solo</description>
-<id type="integer">57</id>
-<monthlycostUSD type="decimal">6.99</monthlycostUSD>
-<monthlypriceUSD type="decimal">6.99</monthlypriceUSD>
-</account-type>
-<account-type>
-<description>Pro</description>
-<id type="integer">2</id>
-<monthlycostUSD type="decimal">10.0</monthlycostUSD>
-<monthlypriceUSD type="decimal">10.0</monthlypriceUSD>
-</account-type>
-<account-type>
-<description>Marketer</description>
-<id type="integer">59</id>
-<monthlycostUSD type="decimal">13.99</monthlycostUSD>
-<monthlypriceUSD type="decimal">13.99</monthlypriceUSD>
-</account-type>
-<account-type>
-<description>Small Business</description>
-<id type="integer">3</id>
-<monthlycostUSD type="decimal">20.0</monthlycostUSD>
-<monthlypriceUSD type="decimal">20.0</monthlypriceUSD>
-</account-type>
-<account-type>
-<description>Publisher</description>
-<id type="integer">131</id>
-<monthlycostUSD type="decimal">24.49</monthlycostUSD>
-<monthlypriceUSD type="decimal">24.49</monthlypriceUSD>
-</account-type>
-<account-type>
-<description>Business</description>
-<id type="integer">61</id>
-<monthlycostUSD type="decimal">34.99</monthlycostUSD>
-<monthlypriceUSD type="decimal">34.99</monthlypriceUSD>
-</account-type>
-<account-type>
-<description>Agency</description>
-<id type="integer">79</id>
-<monthlycostUSD type="decimal">48.99</monthlycostUSD>
-<monthlypriceUSD type="decimal">48.99</monthlypriceUSD>
-</account-type>
-<account-type>
-<description>Enterprise</description>
-<id type="integer">63</id>
-<monthlycostUSD type="decimal">69.99</monthlycostUSD>
-<monthlypriceUSD type="decimal">69.99</monthlypriceUSD>
-</account-type>
+   <account-type>
+      <description>Solo</description>
+      <id type="integer">57</id>
+      <monthlycostUSD type="decimal">6.99</monthlycostUSD>
+      <monthlypriceUSD type="decimal">6.99</monthlypriceUSD>
+   </account-type>
+   <account-type>
+      <description>Pro</description>
+      <id type="integer">2</id>
+      <monthlycostUSD type="decimal">10.0</monthlycostUSD>
+      <monthlypriceUSD type="decimal">10.0</monthlypriceUSD>
+   </account-type>
 </account-types>
 }}}
 
