@@ -4,7 +4,7 @@ Retrieves a list of the authenticated user's contacts.
 http://sendible.com/api/v1/contacts.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
