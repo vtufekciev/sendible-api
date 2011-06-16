@@ -4,7 +4,7 @@ Retrieve the authenticated user's Sendible profile.
 http://sendible.com/api/v1/profile.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
