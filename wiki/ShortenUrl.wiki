@@ -4,7 +4,7 @@ To shorten a given url, make a GET call using basic authentication. Where availa
 http://sendible.com/api/v1/shorten.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
