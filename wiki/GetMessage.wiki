@@ -4,7 +4,7 @@ Retrieves the details about a specific Sendible message.
 http://sendible.com/api/v1/message.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
