@@ -4,7 +4,7 @@ Retrieves all the user profiles belonging to the authenticated user. If the auth
 http://sendible.com/api/v1/profiles.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
