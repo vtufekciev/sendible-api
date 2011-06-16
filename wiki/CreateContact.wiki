@@ -4,7 +4,7 @@ To create a new contact, make a POST call using basic authentication. The new co
 http://sendible.com/api/v1/contact.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 POST
