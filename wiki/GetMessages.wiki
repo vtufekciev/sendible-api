@@ -4,7 +4,7 @@ To retrieve a list of the user's Pending/Sent/Draft Sendible messages, make a GE
 http://sendible.com/api/v1/messages.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
