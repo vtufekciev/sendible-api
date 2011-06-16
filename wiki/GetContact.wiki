@@ -4,7 +4,7 @@ To retrieve the details for a specific contact, make a GET call using basic auth
 http://sendible.com/api/v1/contact.format
 
 ====Formats:====
-xml, json
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
 
 ====HTTP Methods:====
 GET
