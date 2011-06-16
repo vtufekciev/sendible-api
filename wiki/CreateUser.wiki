@@ -1,0 +1,89 @@
+Create a new user on a Sendible White Label partner site.
+
+Please note: Before you can create a new user, you need to enable automatic billing on your white label. This can be setup in the Admin section under Billing.
+
+====URL:====
+http://sendible.com/api/v1/user.format
+
+====Formats:====
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
+
+====HTTP Methods:====
+POST
+
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{account_type_id}}}: The id of the account type that this user will be set to. For available account type id's, please contact support@sendible.com. Use 0 to create a trial.
+ * {{{white_label_code}}}: The unique code that identifies your white label site. You can locate this code in the admin section of your white label under details.
+ * {{{login}}}: The username of the new user. Must be unique.
+ * {{{password}}}: The password of the new user.
+ * {{{fullname}}}: The first name and last name of the user or company name.
+ * {{{email}}}: The email address of the user or company. Must be unique.
+ * {{{timezone}}}: Optional. The timezone offset from GMT in minutes of the new user. E.g. -240
+
+
+
+
+====Success Response:====
+{{{
+<user>
+  <email>testing@gmail.com</email>
+  <fullname>Test User</fullname>
+  <id type="integer">3</id>
+  <login>testuser</login>
+  <is-pro type="boolean">true</is-pro>
+  <account-type-name>Marketer</account-type-name>
+  <tokens-remaining type="decimal">347.0</tokens-remaining> 
+  <message-credits-remaining type="integer">11585</message-credits-remaining> 
+  <api-key>xxxx</api-key> 
+  <contact-count type="integer">8105</contact-count> 
+  <group-count type="integer">20</group-count> 
+  <service-count type="integer">88</service-count> 
+</user>
+}}}
+
+====Error Responses:====
+{{{
+<error>
+<type>InvalidUsernamePassword</type>
+<message>Username/password is invalid.</message>
+</error>
+}}}
+
+{{{
+<error>
+<type>PaymentFailed</type>
+<message>The user could not be created, because the payment failed.</message>
+</error>
+}}}
+
+{{{
+<error>
+<type>AccessError</type>
+<message>Only an admin user belonging to the white label can create a user.</message>
+</error>
+}}}
+
+{{{
+<error>
+<type>AccountTypeNotFound</type>
+<message>Unable to find account type.</message>
+</error>
+}}}
+
+{{{
+<error>
+<type>UserExists</type>
+<message>Username or email already exists.</message>
+</error>
+}}}
+
+{{{
+<error>
+<type>MissingWhiteLabel</type>
+<message>Unable to find white label or automatic billing has not been set up.</message>
+</error>
+}}}
