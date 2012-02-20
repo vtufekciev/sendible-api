@@ -19,7 +19,7 @@ Basic authentication with username and password or remote API key belonging to t
  * {{{white_label_code}}}: The unique code that identifies your white label site. You can locate this code in the admin section of your white label under details.
  * {{{account_type_id}}}: Optional. The ID of the account type that this user will be updated to. To retrieve available account type ID's, please use <a href="http://code.google.com/p/sendible-api/wiki/GetAccountTypes">this API call</a>.
  * {{{tokens}}}: Optional. The number of tokens to add to this user. The value can be {{{500}}}, {{{1000}}}, {{{5000}}} or {{{10000}}}. 
- * {{{disable}}}: Optional. Set this to {{{true}}} to disable this user account.
+ * {{{disable}}}: Optional. Set this to {{{true}}} to disable this user account. When set to {{{false}}}, include the parameter {{{user_api_key}}} to represent the user's {{{api_key}}} that needs to be re-enabled.
 
 
 
