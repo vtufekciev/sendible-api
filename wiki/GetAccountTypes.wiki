@@ -1,4 +1,4 @@
-Retrieve available account types (plans) for a Sendible White Label partner site.
+Retrieve available account types (plans) for a Sendible White Label partner site. (This is for version 1 white label sites.)
 
 Please note: Before you can retrieve available account types, you need to enable automatic billing on your white label. This can be setup in the Admin section under Billing.
 
