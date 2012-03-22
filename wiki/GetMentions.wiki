@@ -12,8 +12,10 @@ GET
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{term_id}}}: The mention term, retrieved using the [GetMentionTerms] call. 
- * {{{filter}}}: Optional. Filter reports by keyword. 
- * {{{per_page}}}: Optional. The number of messages to return per page.
+ * {{{sentiment}}}: Optional. Retrieve mentions with neutral, positive or negative sentiment. Valid values are {{{0}}}, {{{1}}} or {{{-1}}}. 
+ * {{{type}}}: Optional. The type of mentions to retrieve. Valid values are {{{blogs}}}, {{{microblogs}}}, {{{bookmarks}}}, {{{comments}}}, {{{events}}}, {{{images}}}, {{{news}}}, {{{videos}}}, {{{audio}}}, {{{questions}}}, {{{networks}}}.
+ * {{{filter}}}: Optional. Filter mentions by keyword. 
+ * {{{per_page}}}: Optional. The number of mentions to return per page.
  * {{{page}}}: Optional. The page number to return. 
 
 ====Authentication:====
