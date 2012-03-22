@@ -11,7 +11,7 @@ GET
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{term_id}}}: Required. The mention term, retrieved using the {{{mention-terms}}} call. 
+ * {{{term_id}}}: The mention term, retrieved using the [GetMentionTerms] call. 
  * {{{filter}}}: Optional. Filter reports by keyword. 
  * {{{per_page}}}: Optional. The number of messages to return per page.
  * {{{page}}}: Optional. The page number to return. 
