@@ -1,7 +1,7 @@
 To retrieve a list of the user's mentions for a given term, make a GET call using basic authentication.
 
 ====URL:====
-http://sendible.com/api/v1/message-reports.format
+http://sendible.com/api/v1/mentions.format
 
 ====Formats:====
 Replace {{{format}}} with either {{{xml}}} or {{{json}}}
