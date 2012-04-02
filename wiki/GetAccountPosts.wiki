@@ -11,8 +11,8 @@ GET
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{account_detail_id}}}: The account detail id for which to retrieve the valid {{{yearmonth}}} codes.
- * {{{account_statistic_id}}}: Optional. The {{{account_statistic_id}}} for which to retrieve posts.
+ * {{{account_detail_id}}}: The account detail id for which to retrieve the valid {{{yearmonth}}} codes. Valid {{{account_detail_id}}}s can be retrieved using the using the [GetAccountDetails] call.
+ * {{{account_statistic_id}}}: Optional. The {{{account_statistic_id}}} for which to retrieve posts. Valid {{{account_statistic_id}}}s can be retrieved using the using the [GetAccountStatistics] call.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
