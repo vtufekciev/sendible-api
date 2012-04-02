@@ -22,6 +22,23 @@ Basic authentication with username and password or remote API key belonging to t
 <posts>
 	<post>
 		<account-statistic-id type="integer">4006982</account-statistic-id>
+		<clientTime type="datetime">2012-03-29T12:55:06Z</clientTime>
+		<message-html>hidng plek, body pgal, kpla pyeng ,.,,allahu akbar</message-html>
+		<message-text>hidng plek, body pgal, kpla pyeng ,.,,allahu akbar</message-text>
+		<metric-1-name>Comments</metric-1-name>
+		<metric-1-value type="decimal">0.0</metric-1-value>
+		<metric-2-name>Likes</metric-2-name>
+		<metric-2-value type="decimal">0.0</metric-2-value>
+		<post-link/>
+		<post-link-name/>
+		<post-picture/>
+		<poster-avatar>http://graph.facebook.com/100002382677074/picture</poster-avatar>
+		<poster-fullname>BaNnex AZ DeHh</poster-fullname>
+		<sentiment type="integer">0</sentiment>
+		<post-responses type="array"/>
+	</post>
+	<post>
+		<account-statistic-id type="integer">4006982</account-statistic-id>
 		<clientTime type="datetime">2012-03-28T13:45:48Z</clientTime>
 		<message-html>
 		Sendible I tried to reach your help-desk but I could not. Would you please check why my account ayman@oasisventures.net is suspended? I have a lot of work to do. Thanks
@@ -31,6 +48,7 @@ Basic authentication with username and password or remote API key belonging to t
 		</message-text>
 		<metric-1-name>Comments</metric-1-name>
 		<metric-1-value type="decimal">1.0</metric-1-value>
+		<metric-2-name>Likes</metric-2-name>
 		<metric-2-value type="decimal">0.0</metric-2-value>
 		<post-link/>
 		<post-link-name/>
@@ -51,22 +69,6 @@ Basic authentication with username and password or remote API key belonging to t
 				<url/>
 			</post-response>
 		</post-responses>
-	</post>
-	<post>
-		<account-statistic-id type="integer">4006982</account-statistic-id>
-		<clientTime type="datetime">2012-03-27T18:06:47Z</clientTime>
-		<message-html>huffff,.,.,</message-html>
-		<message-text>huffff,.,.,</message-text>
-		<metric-1-name>Comments</metric-1-name>
-		<metric-1-value type="decimal">0.0</metric-1-value>
-		<metric-2-value type="decimal">0.0</metric-2-value>
-		<post-link/>
-		<post-link-name/>
-		<post-picture/>
-		<poster-avatar>http://graph.facebook.com/100002973912901/picture</poster-avatar>
-		<poster-fullname>Ketut Sumerta</poster-fullname>
-		<sentiment type="integer">0</sentiment>
-		<post-responses type="array"/>
 	</post>
 </posts>
 }}}
