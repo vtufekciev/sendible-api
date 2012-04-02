@@ -1,7 +1,7 @@
 Returns a downloadable HTML or CSV report for all account data for a given period. Make a GET call using the api key of the authenticated user. 
 
 ====URL:====
-http://sendible.com/api/v1/account-posts.format
+http://sendible.com/reports?type=account-report
 
 ====Formats:====
 Replace {{{format}}} with either {{{xml}}} or {{{json}}}
