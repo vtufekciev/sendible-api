@@ -1,4 +1,4 @@
-To retrieve a list of the user's social media accounts, make a GET call using basic authentication.
+To retrieve a list of the user's social media account details, make a GET call using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v1/account-details.format
