@@ -1,7 +1,7 @@
 To retrieve daily statistics for a given social media account detail, make a GET call using basic authentication. The days returned represent the date for the given year/month period.
 
 ====URL:====
-http://sendible.com/api/v1/account-periods.format
+http://sendible.com/api/v1/account-statistics.format
 
 ====Formats:====
 Replace {{{format}}} with either {{{xml}}} or {{{json}}}
