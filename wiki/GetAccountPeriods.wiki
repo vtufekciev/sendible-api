@@ -18,14 +18,14 @@ Basic authentication with username and password or remote API key belonging to t
 
 ====Success Response:====
 {{{
-<account_periods>
+<account-periods>
   <yearmonth>201204</yearmonth>
   <yearmonth>201203</yearmonth>
   <yearmonth>201202</yearmonth>
   <yearmonth>201201</yearmonth>
   <yearmonth>201112</yearmonth>
   <yearmonth>201111</yearmonth>
-</account_periods>
+</account-periods>
 }}}
 
 ====Error Response:====
