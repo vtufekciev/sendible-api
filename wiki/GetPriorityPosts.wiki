@@ -22,16 +22,16 @@ Basic authentication with username and password or remote API key belonging to t
 <?xml version="1.0" encoding="UTF-8"?>
 <priority-post>
     <id type="integer">23565051</id>
-	<isRead type="integer">0</isRead>
+    <isRead type="integer">0</isRead>
     <message-type>Post</message-type>
     <original-message nil="true"></original-message>
     
-	<account-detail-id type="integer">28991</account-detail-id>
+    <account-detail-id type="integer">28991</account-detail-id>
     <account-name>London Daily Deals</account-name>
     <account-avatar>http://graph.facebook.com/151591754888713/picture</account-avatar>
- 	<service-image>https://d3u44nfepqqjcg.cloudfront.net/images/icons/facebook_page.gif</service-image>
+    <service-image>https://d3u44nfepqqjcg.cloudfront.net/images/icons/facebook_page.gif</service-image>
     
-	<post-link>http://www.facebook.com/ilovefirehousegirls</post-link>
+    <post-link>http://www.facebook.com/ilovefirehousegirls</post-link>
     <post-picture>http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=197392023656553&amp;v=1&amp;size=z&amp;cksum=0d68a0d4501c5352fe38b91f251a935e&amp;src=https%3A%2F%2Ffbcdn-profile-a.akamaihd.net%2Fhprofile-ak-snc4%2F573982_100002893675833_1724776960_s.jpg</post-picture>
     <post-body>Add the Firehouse Girls on facebook!  http://facebook.com/ilovefirehousegirls</post-body>
     <created-at type="datetime">2012-04-03T01:39:27Z</created-at>
