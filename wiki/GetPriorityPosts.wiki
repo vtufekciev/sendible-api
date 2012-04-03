@@ -1,0 +1,54 @@
+To retrieve priority inbox items for a given user, make a GET call using basic authentication. 
+
+====URL:====
+http://sendible.com/api/v1/priority-posts.format
+
+====Formats:====
+Replace {{{format}}} with either {{{xml}}} or {{{json}}}
+
+====HTTP Methods:====
+GET
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{page}}}: Optional. The page number to return.
+ * {{{per_page}}}: Optional. The number of items to return per page. Default is 20.
+
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Success Response:====
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<priority-posts type="array">
+  <priority-post>
+    <accountName>snippee_news</accountName>
+    <account-detail-id type="integer">123148</account-detail-id>
+    <avatar>http://a0.twimg.com/sticky/default_profile_images/default_profile_6_normal.png</avatar>
+    <body>RT @snippee_news: Is it Tuesday? - http://t.co/y8I2ojYL - http://t.co/xHzksEbp - http://t.co/S9RKlNB9</body>
+    <created-at type="datetime">2012-03-21T21:55:22Z</created-at>
+    <id type="integer">22254433</id>
+    <imageurl>http://a0.twimg.com/sticky/default_profile_images/default_profile_6_normal.png</imageurl>
+    <isRead type="integer">1</isRead>
+    <message-html></message-html>
+    <message-text></message-text>
+    <message-type>Comment</message-type>
+    <original-message>Is it Tuesday? - http://t.co/y8I2ojYL - http://t.co/xHzksEbp - http://t.co/S9RKlNB9</original-message>
+    <profile-image>http://a0.twimg.com/profile_images/372058251/favicon_normal.gif</profile-image>
+    <responder-fullname>shammar89</responder-fullname>
+    <responder-identifier>@shammar89</responder-identifier>
+    <sentiment type="integer">0</sentiment>
+    <service-image>http://twitter.com/phoenix/favicon.ico</service-image>
+    <url>http://twitter.com/shammar89</url>
+    <relative-created-at>1 week ago</relative-created-at>
+  </priority-post>
+</priority-posts>
+}}}
+
+====Error Response:====
+{{{
+<error>
+<type>InvalidUsernamePassword</type>
+<message>Username/password is invalid.</message>
+</error>
+}}}
