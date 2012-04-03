@@ -12,7 +12,7 @@ POST
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{priority_post_id}}}: The ID of the priority post that you are responding to, retrieved using the [GetPriorityPosts] call. 
- * {{{message}}}: The message to respond with.
+ * {{{message}}}: The message text to respond with.
 
 
 ====Authentication:====
