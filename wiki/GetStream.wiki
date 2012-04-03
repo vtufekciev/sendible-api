@@ -9,6 +9,7 @@ GET
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{account_id}}}: The stream account id, retrieved using [GetStreamAccounts].
+ * {{{next_url_params}}}: Optional. Used for paging after the first page is retrieved.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
