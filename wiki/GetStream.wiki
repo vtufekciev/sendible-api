@@ -1,4 +1,4 @@
-To retrieve a list of the user's strean account details, make a GET call using basic authentication.
+To retrieve a list of the user's stream account details, make a GET call using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v0/stream-accounts
