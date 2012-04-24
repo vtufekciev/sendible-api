@@ -10,7 +10,7 @@ GET
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{event}}}: The event to execute. Currently, possible events are {{{like}}} or {{{comment}}}
  * {{{account_id}}}: The account ID for this stream.
- * {{{handle}}}: The unique identifier for this stream. This is returned by the {{{GetStream}}} call in the {{{id}}} field.
+ * {{{handle}}}: The unique identifier for this stream. This is returned by the [GetStream] call in the {{{id}}} field.
  * {{{comment}}}: The comment to be posted. Only include when the {{{event}}} is {{{comment}}}.
 
 ====Authentication:====
