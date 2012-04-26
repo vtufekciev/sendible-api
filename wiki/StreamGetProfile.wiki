@@ -28,15 +28,23 @@ Basic authentication with username and password or remote API key belonging to t
     "profile_streams": [
         {
             name: "Stream",
-            parameters: "'facebook',%20'profile_feed',%2078200"
+            stream: "profile_feed"
         },
         {
             name: "Tagged",
-            parameters: "'facebook',%20'profile_tagged',%2078200"
+            stream: "profile_tagged"
         }
     ]
 }
 }}}
+
+The {{{profile_streams}}} array returns a list of other possible streams that can be retrieved for the current profile. These can be used with the [GetStream] call. For example:
+http://sendible.com/api/v0/stream-fetch?handle=xxxx&stream=profile_tagged&account_id=xxxx
+
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{account_id}}}: The account ID for this stream.
+ * {{{handle}}}: The user's profile identifier. This is returned by the [GetStream] call in the {{{uid}}} field.
+ * {{{stream}}}: The value returned in the {{{stream}}} field within the {{{profile_streams}}} array.
 
 ====Error Response:====
 {{{
