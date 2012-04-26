@@ -34,6 +34,23 @@ Basic authentication with username and password or remote API key belonging to t
             name: "Tagged",
             stream: "profile_tagged"
         }
+    ],
+    "profile_actions": [
+        {
+            name: "Follow",
+            action: "follow",
+            can_message: false
+        },
+        {
+            name: "DM",
+            action: "dm",
+            can_message: true
+        },
+        {
+            name: "Reply",
+            action: "reply",
+            can_message: true
+        }
     ]
 }
 }}}
