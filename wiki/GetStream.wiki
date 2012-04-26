@@ -1,7 +1,7 @@
 To retrieve a list of the user's stream account details, make a GET call using basic authentication.
 
 ====URL:====
-http://sendible.com/api/v0/stream-fetch
+http://sendible.com/api/v0/stream-fetch.json
 
 ====HTTP Methods:====
 GET
