@@ -1,10 +1,7 @@
 To retrieve a list of the user's strean account details, make a GET call using basic authentication.
 
 ====URL:====
-http://sendible.com/api/v1/stream-accounts.format
-
-====Formats:====
-Replace {{{format}}} with either {{{xml}}} or {{{json}}}
+http://sendible.com/api/v1/stream-accounts.json
 
 ====HTTP Methods:====
 GET
@@ -17,25 +14,33 @@ Basic authentication with username and password or remote API key belonging to t
 
 ====Success Response:====
 {{{
-<?xml version="1.0" encoding="UTF-8"?>
-<accounts type="array">
-  <account>
-    <id type="integer">23887125</id>
-    <username>Sendible</username>
-    <service>
-      <id type="integer">1495</id>
-      <icon>http://twitter.com/phoenix/favicon.ico</icon>
-      <description>Monitor Twitter for search terms.</description>
-      <title>Twitter Search</title>
-    </service>
-  </account>
-</accounts>
-}}}
-
-====Error Response:====
-{{{
-<error>
-<type>InvalidUsernamePassword</type>
-<message>Username/password is invalid.</message>
-</error>
+[
+    {
+        "username": "Microsoft Corporation",
+        "id": 239937,
+        "service": {
+            "description": "Monitor Twitter for search terms.",
+            "icon": "http://twitter.com/phoenix/favicon.ico",
+            "id": 1495,
+            "title": "Twitter Search",
+            "stream_actions": [
+                {
+                    "name": "Reply",
+                    "action": "reply",
+                    "can_message": true
+                },
+                {
+                    "name": "DM",
+                    "action": "dm",
+                    "can_message": true
+                },
+                {
+                    "name": "Retweet",
+                    "action": "retweet",
+                    "can_message": true
+                }
+            ]
+        }
+    }
+]
 }}}
