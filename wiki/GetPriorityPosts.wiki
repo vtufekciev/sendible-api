@@ -36,12 +36,16 @@ Basic authentication with username and password or remote API key belonging to t
     <post-body>Add the Firehouse Girls on facebook!  http://facebook.com/ilovefirehousegirls</post-body>
     <created-at type="datetime">2012-04-03T01:39:27Z</created-at>
     <relative-created-at>8 hours ago</relative-created-at>
-  
+    <service-name>facebook(post)</service-name>
     <responder-fullname>Justin Jacob Gurian</responder-fullname>
     <responder-avatar>http://graph.facebook.com/1436829364/picture</responder-avatar>
     <responder-identifier>1436829364</responder-identifier>
     <sentiment type="integer">0</sentiment>
     <url nil="true"></url>
+   <account-detail>
+   <account-id type="integer">78200</account-id>
+    <account-name>London Daily Deals</account-name>
+  </account-detail>
  </priority-post>
 }}}
 
