@@ -1,0 +1,41 @@
+To retrieve a list of the user's accessible team members/clients, make a GET request.
+
+====URL:====
+http://sendible.com/api/v0/users
+
+====HTTP Methods:====
+GET
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+
+
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Success Response:====
+{{{
+[
+    {
+        "lineage": "5131-74797",
+        "fullname": "Wally P",
+        "api_key": "xxx",
+        "login": "wpjr2011"
+    },
+    {
+        "lineage": "59119",
+        "fullname": "Ankit Shah",
+        "api_key": "xxx",
+        "login": "anky"
+    }
+]
+    
+}}}
+
+====Error Response:====
+{{{
+<error>
+<type>InvalidUsernamePassword</type>
+<message>Username/password is invalid.</message>
+</error>
+}}}
