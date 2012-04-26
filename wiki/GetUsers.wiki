@@ -1,7 +1,7 @@
 To retrieve a list of the user's accessible team members/clients, make a GET request.
 
 ====URL:====
-http://sendible.com/api/v0/users
+http://sendible.com/api/v0/users.json
 
 ====HTTP Methods:====
 GET
