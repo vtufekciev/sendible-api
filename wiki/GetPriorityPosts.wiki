@@ -40,6 +40,7 @@ Basic authentication with username and password or remote API key belonging to t
     <responder-fullname>Justin Jacob Gurian</responder-fullname>
     <responder-avatar>http://graph.facebook.com/1436829364/picture</responder-avatar>
     <responder-identifier>1436829364</responder-identifier>
+    <uid>1436829364</uid>
     <sentiment type="integer">0</sentiment>
     <url nil="true"></url>
    <account-detail>
