@@ -1,7 +1,7 @@
 To post an action (e.g. like an item), make a GET call using basic authentication.
 
 ====URL:====
-http://sendible.com/api/v0/post-fetch
+http://sendible.com/api/v0/post-fetch.json
 
 ====HTTP Methods:====
 GET
