@@ -8,9 +8,9 @@ GET
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{event}}}: The event to execute. Use the {{{action}}} field retrieved from within {{{stream-actions}}} that is returned by the [GetStreams] call.
+ * {{{event}}}: The event to execute. Use the {{{action}}} field retrieved from within {{{stream-actions}}} that is returned by the [GetStreamAccounts] call.
  * {{{account_id}}}: The account ID for this stream.
- * {{{handle}}}: The unique identifier for this stream. This is returned by the [GetStreamAccounts] call in the {{{id}}} field.
+ * {{{handle}}}: The unique identifier for this stream. This is returned by the [GetStream] call in the {{{id}}} field.
  * {{{comment}}}: The comment to be posted. Only include when the {{{stream-action}}} has {{{can_message}}} of {{{true}}}.
 
 ====Authentication:====
