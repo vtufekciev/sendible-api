@@ -16,7 +16,7 @@ Basic authentication with username and password or remote API key belonging to t
 {{{
 [
     {
-        "username": "Microsoft Corporation",
+        "description": "Microsoft Corporation",
         "id": 239937,
         "service": {
             "description": "Monitor Twitter for search terms.",
