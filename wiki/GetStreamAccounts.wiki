@@ -27,17 +27,20 @@ Basic authentication with username and password or remote API key belonging to t
                 {
                     "name": "Reply",
                     "action": "reply",
-                    "can_message": true
+                    "can_message": true,
+                    "message_prefix": "@"
                 },
                 {
                     "name": "DM",
                     "action": "dm",
-                    "can_message": true
+                    "can_message": true,
+                    "message_prefix": "d "
                 },
                 {
                     "name": "Retweet",
                     "action": "retweet",
-                    "can_message": true
+                    "can_message": true,
+                    "message_prefix": "RT @"
                 }
             ]
         }
