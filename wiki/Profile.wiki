@@ -30,6 +30,13 @@ Basic authentication with username and password or remote API key belonging to t
   <contact-count type="integer">8105</contact-count> 
   <group-count type="integer">20</group-count> 
   <service-count type="integer">88</service-count> 
+  <contact-fields type="array">
+  <contact-field>
+       <field-name>location</field-name>
+       <field-type>text</field-type>
+       <field-value>London</field-value>
+    </contact-field>
+  </contact-fields>
 </user>
 }}}
 
