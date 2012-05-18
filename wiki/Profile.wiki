@@ -31,10 +31,10 @@ Basic authentication with username and password or remote API key belonging to t
   <group-count type="integer">20</group-count> 
   <service-count type="integer">88</service-count> 
   <contact-fields type="array">
-  <contact-field>
-       <field-name>location</field-name>
-       <field-type>text</field-type>
-       <field-value>London</field-value>
+    <contact-field>
+      <field-name>location</field-name>
+      <field-type>text</field-type>
+      <field-value>London</field-value>
     </contact-field>
   </contact-fields>
 </user>
