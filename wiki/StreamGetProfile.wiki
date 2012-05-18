@@ -37,21 +37,21 @@ Basic authentication with username and password or remote API key belonging to t
     ],
     "profile_actions": [
         {
-            name: "Follow",
-            action: "follow",
-            can_message: false,
+            "name": "Follow",
+            "action": "follow",
+            "can_message": false,
             "message_prefix": ""
         },
         {
-            name: "DM",
-            action: "dm",
-            can_message: true,
+            "name": "DM",
+            "action": "dm",
+            "can_message": true,
             "message_prefix": "d "
         },
         {
-            name: "Reply",
-            action: "reply",
-            can_message: true,
+            "name": "Reply",
+            "action": "reply",
+            "can_message": true,
             "message_prefix": "@"
         }
     ]
