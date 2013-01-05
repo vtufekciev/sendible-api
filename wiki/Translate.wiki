@@ -11,6 +11,8 @@ Basic authentication with username and password or remote API key belonging to t
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{text}}}: The text to be translated.
+ * {{{lang}}}: The language code to translate into. E.g. en
 
 ====Success Response:====
 {{{
