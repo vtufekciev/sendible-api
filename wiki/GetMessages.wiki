@@ -15,6 +15,8 @@ GET
  * {{{filter}}}: Optional. Filter messages by keyword. 
  * {{{per_page}}}: Optional. The number of messages to return per page.
  * {{{page}}}: Optional. The page number to return. 
+ * {{{start}}}: Optional. The date range to return. E.g. {{2015-12-19}}
+ * {{{end}}}: Optional. The date range to return. E.g. {{2015-12-19}}
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
