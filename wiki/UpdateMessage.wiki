@@ -25,6 +25,7 @@ PUT
  * {{{tags}}}: Optional. A comma separated list of tag keywords. Used to categorize blog posts.
  * {{{media}}}: Optional. A comma separated list of files or images to add to the message. Each item in the list must contain the file name with extension and a URL-encoded base64 string representing the data. Format: {{{file_name_1|base64string_1,file_name_2|base64string_2}}}. e.g. {{{logo1w.png|iVBORw0KGgoAAAANSUhEUgAAARMAAABfCAMAAAD8mtMpAAADAFBMVEUAcwsOcRojZitLflOWBR...}}}
  * {{{deleted_media}}}: Optional. A comma separated list of file id's that will be removed from the message.
+ * {{{queue_id}}}: Optional. If the message needs to be added to a SmartQueue include the {{{queue_id}}} parameter. Also, set the status to {{{Queued}}}
 
 
 ====Authentication:====
