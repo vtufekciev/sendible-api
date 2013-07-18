@@ -10,7 +10,7 @@ PUT
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{queue_id}}}: The id of the queue to update.
  * {{{queue_name}}}: Optional. The name of the queue. 
- * {{{queue_times}}}: Optional. The queue times to replace the existing ones with. In the format, {{{day_index}}}|{{{hour}}}|{{{minute}}},{{{day_index}}}|{{{hour}}},....,{{{day_index}}}|{{{hour}}}|{{{minute}}} 
+ * {{{queue_times}}}: Optional. The queue times. These will replace the existing ones on the queue. In the format, {{{day_index}}}|{{{hour}}}|{{{minute}}},{{{day_index}}}|{{{hour}}},....,{{{day_index}}}|{{{hour}}}|{{{minute}}} 
 day_index of 0 represents Monday. day_index of 6 is Sunday.
 For example: 0|11|30,2|14|44 represents: Monday at 11.30, Wednesday at 2.44pm. 
 
