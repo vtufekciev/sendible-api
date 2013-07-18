@@ -21,7 +21,20 @@ Basic authentication with username and password or remote API key belonging to t
 ====Success Response:====
 {{{
 {
-    "queue_times": [],
+    "queue_times": [
+        {
+            "minute": 30,
+            "hour": 11,
+            "id": 284406,
+            "weekday": 0
+        },
+        {
+            "minute": 44,
+            "hour": 14,
+            "id": 284407,
+            "weekday": 2
+        }
+    ],
     "can_repeat": 0,
     "queue_name": "My Queue",
     "id": 9004,
