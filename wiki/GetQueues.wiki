@@ -4,7 +4,7 @@ To retrieve the list of all Sendible SmartQueues for a given user, make a GET ca
 http://sendible.com/api/v2/queues.json
 
 ====HTTP Methods:====
-POST
+GET
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
