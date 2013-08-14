@@ -11,7 +11,8 @@ GET
  * {{{user_id}}}: Optional. The specific user id to retrieve messages for. Use {{{ALL}}} to retrieve all media for the team. IF this is not set, then the media for the authenticated user will be returned.
  * {{{per_page}}}: Optional. The number of messages to return per page.
  * {{{page}}}: Optional. The page number to return.
- 
+ * {{{filter}}}: Optional. A search string parameter used for filtering results.
+
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
 
