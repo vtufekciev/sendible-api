@@ -1,0 +1,28 @@
+To retrieve the list of all Content Libraries for a given user, make a GET call using basic authentication.
+
+====URL:====
+http://sendible.com/api/v2/content_libraries.json
+
+====HTTP Methods:====
+GET
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{type}}}: Optional. {{{all}}}, {{{my}}} or {{{shared}}}. 
+ 
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Success Response:====
+{{{
+[
+    {
+        "created_at": "2013/08/29 10:18:04 +0000",
+        "content_type": "Message",
+        "updated_at": "2013/08/29 10:18:04 +0000",
+        "id": 2,
+        "user_id": 5131,
+        "library_name": "My Content"
+    }
+]
+}}}
