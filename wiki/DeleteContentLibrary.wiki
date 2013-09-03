@@ -8,7 +8,7 @@ DELETE
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{content_library_id}}}: The id of the library to be deleted.
+ * {{{id}}}: The id of the library to be deleted.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
