@@ -8,7 +8,7 @@ PUT
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{id}}}: The id of the content library to update.
+ * {{{content_library_id}}}: The id of the content library to update.
  * {{{library_name}}}: The name of the library.
  * {{{consumers}}}: A comma separated list of user ID's that can consume content in this library. User {{{ALL}}} to add all team members/users this user manages.
  * {{{contributors}}}: A comma separated list of user ID's that can contribute content to this library. User {{{ALL}}} to add all team members/users this user manages.
