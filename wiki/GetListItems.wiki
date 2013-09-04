@@ -19,16 +19,13 @@ Basic authentication with username and password or remote API key belonging to t
 ====Success Response:====
 {{{
 [
-    [
     {
         "id": 2711061,
         "account": {
             "service": {
                 "title": "Twitter",
-                "id": 46,
                 "icon": "http://twitter.com/phoenix/favicon.ico"
             },
-            "id": 500437,
             "description": "sendible"
         }
     },
@@ -37,13 +34,10 @@ Basic authentication with username and password or remote API key belonging to t
         "account": {
             "service": {
                 "title": "Twitter",
-                "id": 46,
                 "icon": "http://twitter.com/phoenix/favicon.ico"
             },
-            "id": 507866,
             "description": "VishalPindoriya"
         }
     }
-]
 ]
 }}}
