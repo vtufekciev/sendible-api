@@ -1,0 +1,37 @@
+To retrieve lists of services for a given user, make a GET call using basic authentication.
+
+====URL:====
+http://sendible.com/api/v2/lists.json
+
+====HTTP Methods:====
+GET
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{type}}}: Optional. {{{all}}}, {{{owner}}}, {{{contributor}}} or {{{consumer}}}. 
+ * {{{list_type}}}: Optional. {{{mixed}}}, {{{social}}}, {{{sms}}} or {{{email}}}. 
+ 
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Success Response:====
+{{{
+[
+    {
+        "consumers": [],
+        "contributors": [],
+        "id": 630,
+        "user_id": 5131,
+        "list_type": "Social",
+        "list_name": "Sendible Twitter"
+    },
+    {
+        "consumers": [],
+        "contributors": [],
+        "id": 9631,
+        "user_id": 5131,
+        "list_type": "Social",
+        "list_name": "Twitter and Facebook"
+    }
+]
+}}}
