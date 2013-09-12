@@ -1,0 +1,41 @@
+To retrieve statistics for a company (multi-user account), make a GET request.
+
+====URL:====
+http://sendible.com/api/v2/company_stats.json
+
+====HTTP Methods:====
+GET
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Success Response:====
+{{{
+{
+    "apps": {
+        "in_use": 19,
+        "total_available": 200
+    },
+    "services": {
+        "in_use": 335,
+        "total_available": 700000
+    },
+    "users": {
+        "inactive": 2,
+        "total_available": 20,
+        "active": 17
+    }
+}
+}}}
+
+
+====Error Response:====
+{{{
+<error>
+<type>InvalidUsernamePassword</type>
+<message>Username/password is invalid.</message>
+</error>
+}}}
