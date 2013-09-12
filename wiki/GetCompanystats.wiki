@@ -1,7 +1,7 @@
-To retrieve statistics for a company (multi-user account), make a GET request.
+To retrieve statistics for a Sendible user or multi-user subscription, make a GET request.
 
 ====URL:====
-http://sendible.com/api/v2/company_stats.json
+http://sendible.com/api/v2/subscription_info.json
 
 ====HTTP Methods:====
 GET
