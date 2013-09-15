@@ -11,7 +11,7 @@ DELETE
  * {{{subscription_id}}}: Required. The specific {{{developer_subscription}}} event that the authenticated user will be subscribing to.
 
 ====Authentication:====
-Basic authentication with username and password or remote API key belonging to the Sendible user that will be subscribing to the event.
+Basic authentication with username and password or remote API key belonging to the Sendible user that will be unsubscribing from this event.
 
 ====Success Response:====
 {{{
