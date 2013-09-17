@@ -9,7 +9,7 @@ POST
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{list_id}}}: The id of the list to add this item to.
- * {{{item_id}}}: The recipient_id of the service retrieved from the [Services] call. 
+ * {{{item_id}}}: The {{{recipient_id}}} of the service retrieved from the [Services] call or the {{{contact_id}}} of a contact. 
 
 
 
