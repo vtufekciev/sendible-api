@@ -9,7 +9,7 @@ POST
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{list_id}}}: The id of the list to remove this item from.
- * {{{item_id}}}: The id of the service to be removed.
+ * {{{item_id}}}: The id of the service or contact to be removed.
 
 
 ====Authentication:====
