@@ -12,6 +12,7 @@ PUT
  * {{{list_name}}}: The name of the list.
  * {{{consumers}}}: A comma separated list of user ID's that can post using this list. User {{{ALL}}} to add all team members/users this user manages.
  * {{{contributors}}}: A comma separated list of user ID's that can add services to this list. User {{{ALL}}} to add all team members/users this user manages.
+ * {{{color}}}: Optional. The color for the list. Default: Random color is generated.
 
 
 ====Authentication:====
