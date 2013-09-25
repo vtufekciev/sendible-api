@@ -11,7 +11,8 @@ POST
  * {{{queue_name}}}: The name of the queue. 
  * {{{auto_detect}}}: This is not currently in use. Please use 0.
  * {{{can_repeat}}}:  This is not currently in use. Please use 0.
- 
+ * {{{contributors}}}:  Optional. A comma separated lists of user IDs representing users that can contribute to this queue.
+
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
 
