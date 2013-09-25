@@ -13,6 +13,7 @@ PUT
  * {{{queue_times}}}: Optional. The comma separated list of queue times. These will replace the existing ones on the queue. In the format, {{{day_index}}}|{{{hour}}}|{{{minute}}},{{{day_index}}}|{{{hour}}}|{{{minute}}},....,{{{day_index}}}|{{{hour}}}|{{{minute}}} 
 day_index of 0 represents Monday. day_index of 6 is Sunday.
 For example: 0|11|30,2|14|44 represents: Monday at 11.30, Wednesday at 2.44pm. 
+ * {{{contributors}}}:  Optional. A comma separated lists of user IDs representing users that can contribute to this queue.
 
  
 ====Authentication:====
