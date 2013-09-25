@@ -15,6 +15,7 @@ POST
  * {{{profile}}}: Either {{{administrator}}}, {{{team member}}} or {{{client}}}.
  * {{{timezone}}}: Optional. The user's timezone offset from GMT in minutes. Default: The admin user's timezone will be used. In Javascript, this is the value of {{{getTimezoneOffset}}}.
  * {{{managed_by_id}}}: Optional. The user ID of the user that manages this user. Default: None.
+ * {{{approval_from_ids}}}: Optional. A comma-separated list of user ID's that need to approve this user's content before it is published.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
