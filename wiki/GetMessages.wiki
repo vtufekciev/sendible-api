@@ -17,6 +17,7 @@ GET
  * {{{page}}}: Optional. The page number to return. 
  * {{{start}}}: Optional. The date range to return. E.g. {{{2015-12-19}}}
  * {{{end}}}: Optional. The date range to return. E.g. {{{2015-12-19}}}
+ * {{{recipient_ids}}}: Optional. A comma separated list of recipient ids to filter results by. E.g. {{8211,9892,4432}}}
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
