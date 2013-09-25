@@ -4,7 +4,7 @@ To update an existing user, make a PUT call using basic authentication.
 http://sendible.com/api/v2/user.json
 
 ====HTTP Methods:====
-POST
+PUT
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
