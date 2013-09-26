@@ -29,7 +29,8 @@ Basic authentication with username and password or remote API key belonging to t
     "user_status": "Active (Premium)",
     "parent_user_id": null,
     "login": "xpxaaaaaa",
-    "email": "infobbbaaa123@sendible.com"
+    "email": "infobbbaaa123@sendible.com",
+    "permission_profile":{"profile_name":"Default","id":2}
 }
 }}}
 
