@@ -1,4 +1,4 @@
-To login as an authenticated user and retrieve account information, make a POST call using basic authentication.
+To perform authentication based methods and retrieve account information, make a POST call using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v2/auth.json
