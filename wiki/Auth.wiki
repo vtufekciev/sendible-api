@@ -1,0 +1,24 @@
+To authenticate against the API and retrieve an access token, make a GET call using basic authentication.
+
+====URL:====
+http://sendible.com/api/v2/auth
+
+====HTTP Methods:====
+GET
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{redirect_uri}}}:  The URI to send the user to after authenticating. Sendible will redirect the user back to this URL with either #error_type= or #access_token= appended to the URL. You will need to store the access_token for any subsequent API requests. 
+
+====Authentication:====
+Basic authentication with username and password belonging to the Sendible user.
+
+====Success Response:====
+{{{
+User is redirected to redirect_uri with #access_token= appended to the URL.
+}}}
+
+====Error Responses:====
+{{{
+User is redirected to redirect_uri with #error_type= appended to the URL.
+}}}
