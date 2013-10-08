@@ -10,7 +10,7 @@ POST
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{fullname}}}: The name of the user.
  * {{{email}}}: The email address of the user.
- * {{{username}}}: The username of the user.
+ * {{{login}}}: The username of the user.
  * {{{password}}}: The password of the user.
  * {{{profile}}}: Either {{{administrator}}}, {{{team member}}} or {{{client}}}.
  * {{{timezone}}}: Optional. The user's timezone offset from GMT in minutes. Default: The admin user's timezone will be used. In Javascript, this is the value of {{{getTimezoneOffset}}}.
