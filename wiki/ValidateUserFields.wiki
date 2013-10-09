@@ -1,7 +1,7 @@
 To retrieve a list of the user's accessible team members/clients, make a GET request.
 
 ====URL:====
-http://sendible.com/api/v2/validate_user_fields.json
+http://sendible.com/api/utils/validate_user_fields.json
 
 ====HTTP Methods:====
 GET
@@ -11,9 +11,10 @@ GET
  * {{{field_name}}}: The name of the field to validate. Values are {{{username}}} or {{{email}}}.
  * {{{field_value}}}: The value of the username or email address to pass to the server.
  * {{{user_id}}}: Optional. When updating an existing user, you must pass the user's ID. 
+ * {{{format}}}: Optional. {{{text}}} or {{{json}}}. If {{{text}}} is used, then you will receive a text response.
 
 ====Authentication:====
-Basic authentication with username and password or remote API key belonging to the Sendible user.
+Non required.
 
 ====Success Response:====
 If validation is successful:
