@@ -9,6 +9,7 @@ POST
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{profile_name}}}: The name of the profile.
+ * {{{permissions}}}: Optional. A comma separated list of permission IDs. This list can be retrieved using the available_permissions API call.
 
 
 ====Authentication:====
