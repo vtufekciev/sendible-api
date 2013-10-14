@@ -8,7 +8,7 @@ GET
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{profile}}}: Optional. The type of profile to filter users with. Valid values are: {{{all}}}, {{{Team Member}}}, {{{Client}}}, {{{Administrator}}}, {{{Inactive}}}, {{{Active}}}
+ * {{{profile}}}: Optional. The type of profile to filter users with. Valid values are: {{{all}}}, {{{Team Member}}}, {{{Client}}}, {{{Administrator}}}, {{{Inactive}}}, {{{Active}}} or a comma separated list of permission profile IDs.
  * {{{filter}}}: Optional. A search string that can be used to filter results. 
  * {{{per_page}}}: Optional. The number of results to return per page. Default is {{{2000}}}. 
  * {{{page}}}: Optional. The page number to return results for. 
