@@ -9,13 +9,7 @@ GET
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{redirect_uri}}}:  The URI to send the user to after authenticating. Sendible will redirect the user back to this URL with either #error_type= or #access_token= appended to the URL. You will need to store the access_token for any subsequent API requests. 
- * {{{source}}}: Optional. Specify {{{client}}} or {{{server}}} as the source. 
-If {{{client}}} is set, the response is sent in the following format:
-#/success/{{{access_token}}} or
-#/error/{{{error_message}}}
-If {{{server}}} is set, the response is sent in the following format:
-?error_type={{{errorType}}}&error_message={{{errorMessage}}}
-?access_token={{{access_token}}}
+ * {{{source}}}: Optional. Specify {{{client}}} or {{{server}}} as the source. If {{{client}}} is set, the response is sent in the following format:#/success/{{{access_token}}} or #/error/{{{error_message}}} If {{{server}}} is set, the response is sent in the following format: ?error_type={{{errorType}}}&error_message={{{errorMessage}}} ?access_token={{{access_token}}}
 
 ====Authentication:====
 Basic authentication with username and password belonging to the Sendible user.
