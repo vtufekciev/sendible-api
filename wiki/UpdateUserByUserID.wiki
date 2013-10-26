@@ -27,8 +27,8 @@ Additional optional parameters:
  * {{{url_shortener}}}: Optional. Set this to the user's default URL shortener. Values include: {{{bit.ly}}}, {{{is.gd}}}, {{{goo.gl}}}, {{{awe.sm}}}, {{{don't shorten}}}
  * {{{url_shortener_login}}}: Optional. If supported, you can provide the user's bit.ly username.
  * {{{url_shortener_key}}}: Optional. If supported, you can provide the user's bit.ly api key.
- * {{{image_shortener}}}: Optional. Provide the image shortener for posting images to Twitter. Values include: {{{Twitter}}}, {{{Twitpic}}},
-{{{Yfrog}}}
+ * {{{image_shortener}}}: Optional. Provide the image shortener for posting images to Twitter. Values include: {{{Twitter}}}, {{{Twitpic}}},{{{Yfrog}}}
+ * {{{preference}}}: Optional. Set the user's publishing preference. This includes whether to always display the rich text editor or not. Values are {{{default}}}, {{{rte_on}}}, {{{rte_off}}}.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
