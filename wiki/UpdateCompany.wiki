@@ -1,0 +1,40 @@
+To update information about the authenticated user's company, make a PUT request.
+
+====URL:====
+http://sendible.com/api/v2/company.json
+
+====HTTP Methods:====
+PUT
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+
+All parameters are optional:
+ * {{{company_name}}}: Optional. This is the company name.
+ * {{{company_email}}}: Optional. This is the company's main email address.
+ * {{{company_website}}}: Optional.This is the URL to the company's website.
+ * {{{company_favicon}}}: Optional. This is the URL to the company's website favicon.
+ * {{{company_logo}}}: Optional. This is the URL to the company logo.
+ * {{{global_url_shortener}}}: Optional.Set this to the company's default URL shortener. Values include: {{{bit.ly}}}, {{{is.gd}}}, {{{goo.gl}}}, {{{awe.sm}}}, {{{don't shorten}}}
+ * {{{global_url_shortener_login}}}: Optional. If supported, you can provide the user's bit.ly username.
+ * {{{global_url_shortener_key}}}: Optional. If supported, you can provide the user's bit.ly api key.
+
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Success Response:====
+{{{
+{
+"status": "OK"
+}
+
+}}}
+
+====Error Responses:====
+{{{
+{"error": {"type": "NotFound", "message": "Company could not be found."} }
+}}}
+
+{{{
+{"error": {"type": "PermissionDenied", "message": "Only administrators can update the company information."} }
+}}}
