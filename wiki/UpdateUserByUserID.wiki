@@ -15,11 +15,11 @@ PUT
  * {{{login}}}: The username of the user.
  * {{{password}}}: Optional. The password of the user.
  * {{{profile}}}: Either {{{administrator}}}, {{{team member}}} or {{{client}}}.
+
+Additional optional parameters:
  * {{{managed_by_id}}}: Optional. The user ID of the user that manages this user. Default: None.
  * {{{approval_from_ids}}}: Optional. A comma-separated list of user ID's that need to approve this user's content before it is published.
  * {{{permission_profile_id}}}: Optional. The permission profile ID to set for the user. 
-
-Additional optional parameters:
  * {{{timezone}}}: Optional. The user's timezone offset from GMT in minutes. Default: The admin user's timezone will be used. In Javascript, this is the value of {{{getTimezoneOffset}}}.
  * {{{language}}}: Optional. The user's default language, as an ISO 639-1 code. For example, English would be set as {{{en}}}.  
  * {{{clock_format}}}: Optional. The user's preferred clock format, i.e. a 12 hour clock or a 24 hour clock. Values can be {{{12}}} or {{{24}}}.
