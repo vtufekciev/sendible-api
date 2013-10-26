@@ -30,6 +30,8 @@ Additional optional parameters:
  * {{{image_shortener}}}: Optional. Provide the image shortener for posting images to Twitter. Values include: {{{Twitter}}}, {{{Twitpic}}},{{{Yfrog}}}
  * {{{preference}}}: Optional. Set the user's publishing preference. This includes whether to always display the rich text editor or not. Values are {{{default}}}, {{{rte_on}}}, {{{rte_off}}}.
  * {{{is_paused}}}: Optional. Set this to {{{1}}} to pause this user's publishing, or {{{0}}} to unpause the user's posts.
+ * {{{security_question}}}: Optional. Set the user's security question. This is used when a user signs from an unrecognized location.
+ * {{{security_answer}}}: Optional. Set the user's security answer. This is used when a user signs from an unrecognized location.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
