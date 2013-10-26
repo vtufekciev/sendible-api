@@ -33,6 +33,7 @@ Additional optional parameters:
  * {{{security_question}}}: Optional. Set the user's security question. This is used when a user signs from an unrecognized location.
  * {{{security_answer}}}: Optional. Set the user's security answer. This is used when a user signs from an unrecognized location.
  * {{{valid_ips}}}: Optional. A commas separated list of valid IP addresses. A user will be prompted to enter security question and answer details if signing in from a non-listed IP.
+ * {{{session_days}}}: Optional. The number of days before the user's access_token expires.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
