@@ -17,6 +17,8 @@ Basic authentication with username and password or remote API key belonging to t
 {
     "vat_number": "xxxxxxxxxxxxxxxxx",
     "billing_email": "billing@mysite.com,james@mysite.com",
+    "billing_user_fullname": "John Smith",
+    "billing_user_login": "jsmith01",
     "receipts": [
         {
             "tax": 0,
