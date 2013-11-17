@@ -1,7 +1,7 @@
 To update the order for an existing custom field, make a PUT request.
 
 ====URL:====
-http://sendible.com/api/v2/custom_field.json
+http://sendible.com/api/v2/custom_field_order.json
 
 ====HTTP Methods:====
 PUT
