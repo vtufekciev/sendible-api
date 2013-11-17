@@ -1,4 +1,4 @@
-To create a new custom field, make a PUT request.
+To update an existing custom field, make a PUT request.
 
 ====URL:====
 http://sendible.com/api/v2/custom_field.json
