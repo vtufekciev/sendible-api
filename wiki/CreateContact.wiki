@@ -27,7 +27,7 @@ POST
  * {{{fax}}}: Optional. The contact's fax number.
  * {{{company}}}: Optional. The contact's company.
  * {{{tel}}}: Optional. The contact's telephone number.
-
+ * {{{image_url}}}: Optional. The contact's avatar/profile URL.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
