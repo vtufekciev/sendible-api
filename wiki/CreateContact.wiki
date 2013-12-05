@@ -11,7 +11,8 @@ POST
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{first_name}}}: The contact's first name.
+ * {{{owner_id}}}: The Sendible user ID that owns this contact.
+* {{{first_name}}}: The contact's first name.
  * {{{last_name}}}: The contact's last name.
  * {{{email}}}: Optional. The contact's email address.
  * {{{cellphone}}}: Optional.The contact's mobile number.
@@ -29,6 +30,23 @@ POST
  * {{{tel}}}: Optional. The contact's telephone number.
  * {{{image_url}}}: Optional. The contact's avatar/profile URL.
  * {{{notes}}}: Optional. Notes about this contact.
+ * {{{contact_type}}}: Optional. Either {{{Lead}}}, {{{Account}}} or {{{Opportunity}}}.
+ * {{{lead_source}}}: Optional. One of the following:
+{{{
+Google AdWords
+Google (organic)
+Other Search Engines
+Social Media
+Automation
+Cold Calling/Telemarketing
+Advertising
+Custom Referral
+Word of Mouth (Non Customers)
+Expo/Seminar
+Direct Mail
+Email Marketing
+Unknown
+}}}
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
