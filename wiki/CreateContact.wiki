@@ -28,6 +28,7 @@ POST
  * {{{company}}}: Optional. The contact's company.
  * {{{tel}}}: Optional. The contact's telephone number.
  * {{{image_url}}}: Optional. The contact's avatar/profile URL.
+ * {{{notes}}}: Optional. Notes about this contact.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
