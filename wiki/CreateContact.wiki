@@ -11,7 +11,7 @@ POST
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
-* {{{first_name}}}: The contact's first name.
+ * {{{first_name}}}: The contact's first name.
  * {{{last_name}}}: The contact's last name.
  * {{{owner_id}}}: Optional. The Sendible user ID that owns this contact.
  * {{{email}}}: Optional. The contact's email address.
