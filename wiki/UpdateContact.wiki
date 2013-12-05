@@ -14,6 +14,7 @@ PUT
  * {{{contact_id}}}: The contact id.
  * {{{first_name}}}: The contact's first name.
  * {{{last_name}}}: The contact's last name.
+ * {{{owner_id}}}: Optional. The Sendible user ID that owns this contact.
  * {{{email}}}: Optional. The contact's email address.
  * {{{cellphone}}}: Optional.The contact's mobile number.
  * {{{birthday}}}: Optional. The contact's date of birth. Format: {{{yyyy-MM-dd}}} e.g. {{{2012-02-24}}}
@@ -30,6 +31,23 @@ PUT
  * {{{tel}}}: Optional. The contact's telephone number.
  * {{{image_url}}}: Optional. The contact's avatar/profile URL.
  * {{{notes}}}: Optional. Notes about this contact.
+ * {{{contact_type}}}: Optional. Either {{{Lead}}}, {{{Account}}} or {{{Opportunity}}}.
+ * {{{lead_source}}}: Optional. One of the following:
+{{{
+Google AdWords
+Google (organic)
+Other Search Engines
+Social Media
+Automation
+Cold Calling/Telemarketing
+Advertising
+Custom Referral
+Word of Mouth (Non Customers)
+Expo/Seminar
+Direct Mail
+Email Marketing
+Unknown
+}}}
 
 
 ====Authentication:====
