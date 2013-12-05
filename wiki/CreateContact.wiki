@@ -35,53 +35,32 @@ Basic authentication with username and password or remote API key belonging to t
 
 ====Success Response:====
 {{{
-<?xml version="1.0" encoding="UTF-8"?>
-<contact> 
-  <addressline1 nil="true"></addressline1> 
-  <addressline2 nil="true"></addressline2> 
-  <birthday type="date" nil="true"></birthday> 
-  <cellphone nil="true"></cellphone> 
-  <city nil="true"></city> 
-  <company nil="true"></company> 
-  <country nil="true"></country> 
-  <email>info@sendible.com</email> 
-  <fax nil="true"></fax> 
-  <firstName>John</firstName> 
-  <id type="integer">3567</id> 
-  <lastName>Smith</lastName> 
-  <occupation nil="true"></occupation> 
-  <sex nil="true"></sex> 
-  <state nil="true"></state> 
-  <tel nil="true"></tel> 
-  <unsubscribed type="integer">0</unsubscribed> 
-  <zip nil="true"></zip> 
-  <contact-accounts type="array"/> 
-  <contact-fields type="array"/>
-</contact> 
-}}}
-
-====Error Responses:====
-{{{
-<error>
-<type>InvalidUsernamePassword</type>
-<message>Username/password is invalid.</message>
-</error>
-}}}
-
-
-
-{{{
-<error>
-<type>ContactLimitReached</type>
-<message>You can store a maximum of x contact(s). To store more, please upgrade your account.</message>
-</error>
-}}}
-
-
-
-{{{
-<error>
-<type>ContactSaveError</type>
-<message>Contact could not be saved.</message>
-</error>
+  {
+        "image_url": "",
+        "id": 10831941,
+        "notes": "",
+        "first_name": "carpas",
+        "last_name": "missvalles",
+        "full_name": "carpas missvalles",
+        "firstName": "carpas",
+        "lastName": "missvalles",
+        "preference": "Email",
+        "email": "carpasmissvalles@gmail.com",
+        "company": "",
+        "occupation": "",
+        "birthday": "",
+        "cellphone": "",
+        "tel": "",
+        "fax": "",
+        "sex": "",
+        "city": "",
+        "addressline1": "",
+        "addressline2": "",
+        "country": "",
+        "state": "",
+        "zip": "",
+        "unsubscribed": 0,
+        "accounts": []
+    }
+    
 }}}
