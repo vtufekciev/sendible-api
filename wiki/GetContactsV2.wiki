@@ -8,7 +8,21 @@ GET
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{filter}}}: Optional. Filter contacts by keyword.
+ * {{{filter}}}: Optional. A JSON string in the following format: 
+{{{
+{
+    "contains": "",
+    "owner_id": 1,
+    "created_after": "2012-01-01",
+    "created_before": "2020-12-21",
+    "custom_fields": [
+        {
+            "name": "age",
+            "value": 12
+        }
+    ]
+}
+}}}
  * {{{per_page}}}: Optional. The number of contacts to return per page. Maximum is 1000.
  * {{{page}}}: Optional. The page number to return. 
 
