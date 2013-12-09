@@ -30,6 +30,7 @@ POST
  * {{{tel}}}: Optional. The contact's telephone number.
  * {{{image_url}}}: Optional. The contact's avatar/profile URL.
  * {{{notes}}}: Optional. Notes about this contact.
+ * {{{preference}}}: Optional. {{{Email}}} or {{{SMS}}}.
  * {{{contact_type}}}: Optional. Either {{{Lead}}}, {{{Account}}} or {{{Opportunity}}}.
  * {{{lead_source}}}: Optional. One of the following:
 {{{
