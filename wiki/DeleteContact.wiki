@@ -1,7 +1,7 @@
 To delete a contact, make a DELETE call using basic authentication.
 
 ====URL:====
-http://sendible.com/api/v1/message.format
+http://sendible.com/api/v1/contact.format
 
 ====Formats:====
 Replace {{{format}}} with either {{{xml}}} or {{{json}}}
