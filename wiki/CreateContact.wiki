@@ -31,6 +31,7 @@ POST
  * {{{image_url}}}: Optional. The contact's avatar/profile URL.
  * {{{notes}}}: Optional. Notes about this contact.
  * {{{preference}}}: Optional. {{{Email}}} or {{{SMS}}}.
+ * {{{bio}}}: Optional. The contact's bio information.
  * {{{contact_type}}}: Optional. Either {{{Lead}}}, {{{Account}}} or {{{Opportunity}}}.
  * {{{lead_source}}}: Optional. One of the following:
 {{{
