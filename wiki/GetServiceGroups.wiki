@@ -1,0 +1,56 @@
+To retrieve service groups by category, make an authenticated GET request. 
+
+====URL:====
+http://sendible.com/api/v2/service_groups.json
+
+====HTTP Methods:====
+GET
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{category_code}}}: One of the following: {{{popular}}}, {{{social}}}, {{{blogs}}}, {{{photos}}}, {{{bookmarking}}}, {{{apps}}}.
+
+
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Success Response:====
+{{{
+{
+    "service_groups": [
+        {
+            "sort_order": 1,
+            "name": "Facebook",
+            "category_code": "Popular",
+            "description": "Facebook",
+            "services": [
+                {
+                    "icon": "http://snd-assets.s3.amazonaws.com/icons/somicro/facebook.png",
+                    "title": "Facebook Fan Page",
+                    "connection_url": "/api/v2/connect?service_id=19",
+                    "description": "Post updates to your Facebook Fan Pages.",
+                    "id": 19
+                },
+                {
+                    "icon": "http://snd-assets.s3.amazonaws.com/icons/somicro/twitter.png",
+                    "title": "Twitter",
+                    "connection_url": "/api/v2/connect?service_id=46",
+                    "description": "Post Twitter updates now or in the future.",
+                    "id": 46
+                }
+            ],
+            "image_url": null,
+            "id": 1
+        },
+        {
+            "sort_order": 2,
+            "name": "Twitter",
+            "category_code": "Popular",
+            "description": "Twitter",
+            "services": [],
+            "image_url": null,
+            "id": 2
+        }
+    ]
+}
+}}}
