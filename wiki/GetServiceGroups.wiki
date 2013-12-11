@@ -6,13 +6,22 @@ http://sendible.com/api/v2/service_groups.json
 ====HTTP Methods:====
 GET
 
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{category_code}}}: One of the following: {{{popular}}}, {{{social}}}, {{{blogs}}}, {{{photos}}}, {{{bookmarking}}}, {{{apps}}}.
 
+====Adding Services:====
+The result set contains an array of services and each service has a {{{connection_url}}}. You'll need to open a window redirecting the user to the API host concatenated to the connection url.
 
-====Authentication:====
-Basic authentication with username and password or remote API key belonging to the Sendible user.
+For example, using the results below, if a user wants to add a service, you would use:
+{{{
+window.open("http://sendible.com/api/v2/connect?service_id=19");
+}}}
+
+Once the service has been added, the window will be closed and the parameters will be passed back to your calling page.
 
 ====Success Response:====
 {{{
