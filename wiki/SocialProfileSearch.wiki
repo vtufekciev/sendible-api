@@ -9,104 +9,47 @@ GET
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{type}}}: One of the following: {{{twitter}}}, {{{linkedin}}}, {{{facebook}}}, {{{instagram}}}.
- * {{{account_id}}}: The service id, if available for the authenticated user returned by the [Services] API method. Alternatively, just use null.
  * {{{q}}}: The name to search for.
+ * {{{account_id}}}: Optional. The service id, if available for the authenticated user returned by the [Services] API method. Alternatively, just use null.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
 
 ====Success Response:====
 {{{
-[
-    {
-        "profile_url": "http://www.linkedin.com/in/generaldonaldsmith",
-        "id": "ujsRx-cQ23",
-        "profile_picture": "http://m.c.lnkd.licdn.com/mpr/mprx/0_UQF0Z_ygp_xmJKM3J3b8Zhs8O8UGRn43JX18Zhsj357-X-fTc8c198a1raRjZlJDs5L3Bbk5MhvR",
-        "location": "Greater New York City Area",
-        "bio": "",
-        "last_name": "Smith",
-        "first_name": "BGEN Donald B."
-    },
-    {
-        "profile_url": "http://www.linkedin.com/in/mybest",
-        "id": "yE7rjFas-v",
-        "profile_picture": "http://m.c.lnkd.licdn.com/mpr/mprx/0_eOkdZan6G6aFfyO3ep_nZSzIGiRd7sO3oJKnZSXJj5fJKOdTX4NL9DKc2aU92g0DWjQcBoVT_kN5",
-        "location": "Washington D.C. Metro Area",
-        "bio": "",
-        "last_name": "Smith, MBA, PMP",
-        "first_name": "Christopher B."
-    },
-    {
-        "profile_url": "http://www.linkedin.com/in/jobsingames",
-        "id": "VlNX9a42MN",
-        "profile_picture": "http://m.c.lnkd.licdn.com/mpr/mprx/0_lwfCFPpZqdNgLijc1W7jFA2WNel-5LDc1dRjFrpWwa5GsTVBjS0mWKebs5AD6G2RKeDyHBaFH3_4",
-        "location": "Stockport, United Kingdom",
-        "bio": "",
-        "last_name": "SMITH",
-        "first_name": "ADRIAN"
-    },
-    {
-        "profile_url": "http://www.linkedin.com/in/bimguy",
-        "id": "FNnobszH82",
-        "profile_picture": "http://m.c.lnkd.licdn.com/mpr/mprx/0_oivHPad8_zVRRjr1okNUPuJ23POoUYr1HGTBPuIrOnoRkVFPQL5Xj2xOfjYq4MA0IhB9yIM2thrD",
-        "location": "Washington D.C. Metro Area",
-        "bio": "",
-        "last_name": "Smith PMP, LEED AP, CQM, CDT",
-        "first_name": "Brian S."
-    },
-    {
-        "profile_url": "http://www.linkedin.com/in/williamseoprosmith",
-        "id": "-w5rvEDAeq",
-        "profile_picture": "http://m.c.lnkd.licdn.com/mpr/mprx/0_WfMGO2ZoBvmIwkhhWWZAOmI9c1JIwChhISSgOmI9HrDRN6c8LdWaKax4JUMqH532e2UpAdzuQxwi",
-        "location": "Phoenix, Arizona Area",
-        "bio": "",
-        "last_name": "Smith",
-        "first_name": "William"
-    },
-    {
-        "profile_url": "http://www.linkedin.com/pub/peter-smith-lion-petersmithsinbox-gmail-com/81/7b4/380",
-        "id": "00-OohkRIL",
-        "profile_picture": "http://m.c.lnkd.licdn.com/mpr/mprx/0_yths_K9KaUQ_-O5v-zt5_1Bj2pPSt4qvYrqL_1XS1JbySyizrNrnDPK_Gt1PA0zMglGkuNsDqMtT",
-        "location": "Leicester, United Kingdom",
-        "bio": "",
-        "last_name": "Smith (LION)(petersmithsinbox@gmail.com)",
-        "first_name": "Peter"
-    },
-    {
-        "profile_url": "http://www.linkedin.com/in/msmith88",
-        "id": "4o-ASAmAQS",
-        "profile_picture": "http://m.c.lnkd.licdn.com/mpr/mprx/0_B1FpRCrajLp-x9d3vN5iR3-CxCUYj9J3zl1_Rh3j8b7mGtaTRzcrv8v1l2RTYA4DnrLGqb1_Fr8e",
-        "location": "Tampa/St. Petersburg, Florida Area",
-        "bio": "",
-        "last_name": "Smith",
-        "first_name": "Mark"
-    },
-    {
-        "profile_url": "http://www.linkedin.com/in/zacharyalansmith",
-        "id": "Wnid4Aj5TX",
-        "profile_picture": "http://m.c.lnkd.licdn.com/mpr/mprx/0_T_Ic9xSTd5ns4WE1_XUH9jmmdb-ZsoI1ik0e9pDY9C6e5mpPD5RRZyMKFdtbJDo088ddJU0FQ0Uy",
-        "location": "Fort Wayne, Indiana Area",
-        "bio": "",
-        "last_name": "Smith",
-        "first_name": "Zach"
-    },
-    {
-        "profile_url": "http://www.linkedin.com/in/smithtx",
-        "id": "-hxZQA930c",
-        "profile_picture": "http://m.c.lnkd.licdn.com/mpr/mprx/0_oivHPfZS3zMIMjh1EhcBPSs23POoUYr1kbTBPuIrOnoRkVFPQL5Xj2xOfjYq4MA0IhB9yIJ_fdvD",
-        "location": "Dallas/Fort Worth Area",
-        "bio": "",
-        "last_name": "Smith",
-        "first_name": "Dennis"
-    },
-    {
-        "profile_url": "http://www.linkedin.com/pub/jason-smith/b/62b/94b",
-        "id": "pwovywq2YR",
-        "profile_picture": null,
-        "location": "Charlotte, North Carolina Area",
-        "bio": "",
-        "last_name": "Smith",
-        "first_name": "Jason"
-    }
-]
+{
+    "profiles": [
+        {
+            "profile_id": "606240366",
+            "profile_name": "Gavin Hammar",
+            "bio": "",
+            "last_name": "Hammar",
+            "profile_picture": "https://graph.facebook.com/606240366/picture",
+            "profile_url": "http://facebook.com/606240366",
+            "location": "",
+            "first_name": "Gavin"
+        },
+        {
+            "profile_id": "587135622",
+            "profile_name": "Gavin Hoy",
+            "bio": "",
+            "last_name": "Hoy",
+            "profile_picture": "https://graph.facebook.com/587135622/picture",
+            "profile_url": "http://facebook.com/587135622",
+            "location": "",
+            "first_name": "Gavin"
+        },
+        {
+            "profile_id": "546520281",
+            "profile_name": "AudryJo Gavin",
+            "bio": "",
+            "last_name": "Gavin",
+            "profile_picture": "https://graph.facebook.com/546520281/picture",
+            "profile_url": "http://facebook.com/546520281",
+            "location": "",
+            "first_name": "AudryJo"
+        }
+    ],
+    "account_id": 515290
+}
 }}}
