@@ -14,7 +14,7 @@ Basic authentication with username and password or remote API key belonging to t
  * {{{service_id}}}: The id of the service retrieved from this call: [GetServiceGroups]
 
 Note: You can understand how see how these parameters are rendered by looking at: 
-http://sendible.com/services/new/{{{service_id}}}.
+http://sendible.com/services/new/service_id (replace service_id with the value of the service_id parameter you're using)
 
 ====Success Response:====
 {{{
