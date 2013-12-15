@@ -84,26 +84,3 @@ Basic authentication with username and password or remote API key belonging to t
     }
 ]
 }}}
-
-OR 
-
-{{{
-[
-    {
-        "id": 10180451,
-        "user_id": null,
-        "title": "Achoeng Adhie",
-        "icon": "http://sendible-public.s3.amazonaws.com/images/silhouette.gif",
-        "item_type": "Email",
-        "description": "xxxxx@xxxxx.com"
-    },
-    {
-        "id": 10180452,
-        "user_id": null,
-        "title": "Islam Samy",
-        "icon": "http://sendible-public.s3.amazonaws.com/images/silhouette.gif",
-        "item_type": "Email",
-        "description": "xxxxx@xxxxx.com"
-    }
-]
-}}}
