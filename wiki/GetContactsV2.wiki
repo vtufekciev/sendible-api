@@ -29,7 +29,7 @@ Please note:
 
 - owner_id can consist of a comma separated list of user ID's,
 
-- contact_type can be {{{Lead}}}, {{{Account}}} or {{{Contact}}}.
+- contact_type can be {{{Lead}}}, {{{Account}}} or {{{Opportunity}}}.
 
  * {{{per_page}}}: Optional. The number of contacts to return per page. Maximum is 1000.
  * {{{page}}}: Optional. The page number to return. 
