@@ -1,7 +1,7 @@
 Retrieves a list of the authenticated user's contacts.
 
 ====URL:====
-http://sendible.com/api/v1/contacts.json
+http://sendible.com/api/v2/contacts.json
 
 ====HTTP Methods:====
 GET
