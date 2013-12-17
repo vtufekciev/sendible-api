@@ -15,6 +15,7 @@ GET
     "owner_id": "1,2", 
     "created_after": "2012-01-01",
     "created_before": "2020-12-21",
+    "contact_type", "Lead",
     "custom_fields": [
         {
             "name": "age",
@@ -23,7 +24,10 @@ GET
     ]
 }
 }}}
-Please note: owner_id can consist of a comma separated list of user ID's,
+Please note: 
+- owner_id can consist of a comma separated list of user ID's,
+- contact_type can be {{{Lead}}}, {{{Account}}} or {{{Contact}}}.
+
  * {{{per_page}}}: Optional. The number of contacts to return per page. Maximum is 1000.
  * {{{page}}}: Optional. The page number to return. 
 
