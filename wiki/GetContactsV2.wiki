@@ -24,8 +24,11 @@ GET
     ]
 }
 }}}
+
 Please note: 
+
 - owner_id can consist of a comma separated list of user ID's,
+
 - contact_type can be {{{Lead}}}, {{{Account}}} or {{{Contact}}}.
 
  * {{{per_page}}}: Optional. The number of contacts to return per page. Maximum is 1000.
