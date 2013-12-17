@@ -12,7 +12,7 @@ GET
 {{{
 {
     "contains": "",
-    "owner_id": 1,
+    "owner_id": "1,2", 
     "created_after": "2012-01-01",
     "created_before": "2020-12-21",
     "custom_fields": [
@@ -23,6 +23,7 @@ GET
     ]
 }
 }}}
+Please note: owner_id can consist of a comma separated list of user ID's,
  * {{{per_page}}}: Optional. The number of contacts to return per page. Maximum is 1000.
  * {{{page}}}: Optional. The page number to return. 
 
