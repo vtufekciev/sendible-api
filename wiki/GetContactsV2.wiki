@@ -19,8 +19,9 @@ GET
     "custom_fields": [
         {
             "name": "age",
-            "value": 12,
-            "operator": "<"
+            "operator": "<",
+            "value": 12
+            
 
         }
     ]
