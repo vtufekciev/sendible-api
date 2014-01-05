@@ -11,7 +11,7 @@ POST
  * {{{payload}}}: The raw CSV data.
  * {{{type}}}: Set this to {{{contacts}}}.
  * {{{preference}}}: Set this to {{{Email}}}, {{{SMS}}} or {{{Mixed}}}.
-* {{{list_id}}}: Optional. Set this to the list id that these contacts will be added to.
+ * {{{list_id}}}: Optional. Set this to the list id that these contacts will be added to.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
