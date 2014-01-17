@@ -34,6 +34,7 @@ Please note:
 
 - contact_type can be {{{Lead}}}, {{{Account}}} or {{{Opportunity}}}.
 
+ * {{{contact_info}}} Optional. Only contacts with this contact information is returned. Valid values are: {{{email}}}, {{{sms}}} or {{{mixed}}}.
  * {{{per_page}}}: Optional. The number of contacts to return per page. Maximum is 1000.
  * {{{page}}}: Optional. The page number to return. 
 
