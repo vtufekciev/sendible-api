@@ -11,7 +11,7 @@ Basic authentication with username and password or remote API key belonging to t
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{category_code}}}: One of the following: {{{popular}}}, {{{social}}}, {{{blogs}}}, {{{photos}}}, {{{bookmarking}}}, {{{apps}}}.
+ * {{{category_code}}}: One of the following: {{{popular}}}, {{{social}}}, {{{blogs}}}, {{{photos}}}, {{{bookmarking}}}, {{{monitoring}}}, {{{apps}}}.
 
 ====Adding Services:====
 The result set contains an array of services and each service has a {{{connection_url}}}. You'll need to open a window redirecting the user to the API host concatenated to the connection url.
