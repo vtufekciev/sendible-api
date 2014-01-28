@@ -27,7 +27,8 @@ http://sendible.com/services/new/service_id (replace service_id with the value o
             "parameter_name": "fullname",
             "options": null,
             "category": "config",
-            "parameter_description": "Description"
+            "parameter_description": "Description",
+            "isMandatory": true
         },
         {
             "id": 3,
@@ -36,7 +37,8 @@ http://sendible.com/services/new/service_id (replace service_id with the value o
             "parameter_name": "username",
             "options": null,
             "category": "config",
-            "parameter_description": "Username or Email"
+            "parameter_description": "Username or Email",
+            "isMandatory": true
         },
         {
             "id": 12,
@@ -54,7 +56,8 @@ http://sendible.com/services/new/service_id (replace service_id with the value o
             "parameter_name": "account_id",
             "options": "",
             "category": "config",
-            "parameter_description": "Facebook Page"
+            "parameter_description": "Facebook Page",
+            "isMandatory": true
         },
         {
             "id": 388,
@@ -63,7 +66,8 @@ http://sendible.com/services/new/service_id (replace service_id with the value o
             "parameter_name": "linkPreview",
             "options": "No,Yes",
             "category": "config",
-            "parameter_description": "Automatically generate link previews"
+            "parameter_description": "Automatically generate link previews",
+            "isMandatory": true
         },
         {
             "id": 1552,
@@ -72,7 +76,8 @@ http://sendible.com/services/new/service_id (replace service_id with the value o
             "parameter_name": "attribution",
             "options": null,
             "category": "config",
-            "parameter_description": "Attach an attribution link"
+            "parameter_description": "Attach an attribution link",
+            "isMandatory": true
         },
         {
             "id": 1554,
@@ -81,7 +86,8 @@ http://sendible.com/services/new/service_id (replace service_id with the value o
             "parameter_name": "preview",
             "options": null,
             "category": "config",
-            "parameter_description": "What my posts will look like"
+            "parameter_description": "What my posts will look like",
+            "isMandatory": true
         },
         {
             "id": 1556,
@@ -90,7 +96,8 @@ http://sendible.com/services/new/service_id (replace service_id with the value o
             "parameter_name": "link",
             "options": null,
             "category": "config",
-            "parameter_description": "Link"
+            "parameter_description": "Link",
+            "isMandatory": true
         },
         {
             "id": 1558,
@@ -99,7 +106,8 @@ http://sendible.com/services/new/service_id (replace service_id with the value o
             "parameter_name": "link_title",
             "options": null,
             "category": "config",
-            "parameter_description": "Link Title"
+            "parameter_description": "Link Title",
+            "isMandatory": true
         },
         {
             "id": 1562,
@@ -108,7 +116,8 @@ http://sendible.com/services/new/service_id (replace service_id with the value o
             "parameter_name": "targetting",
             "options": null,
             "category": "config",
-            "parameter_description": "Geotargeting"
+            "parameter_description": "Geotargeting",
+            "isMandatory": true
         },
         {
             "id": 21891,
