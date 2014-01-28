@@ -23,7 +23,7 @@ Basic authentication with username and password or remote API key belonging to t
  * {{{password}}}: The user's password.
  * {{{login}}}: The users username.
  * {{{timezone}}}: Optional. The user's timezone offset from GMT in minutes. Default: The admin user's timezone will be used. In Javascript, this is the value of getTimezoneOffset.
-
+ * {{{managed_by_id}}}: Optional. The id of the user managing this user's account (the parent user's id).
 
 ====Success Response:====
 {{{
