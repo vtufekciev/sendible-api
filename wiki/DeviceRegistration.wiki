@@ -9,6 +9,7 @@ POST
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{device_id}}}: Required. The device registration ID.
+ * {{{device_type}}}: Required. Either {{{android}}} or {{{ios}}}.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
@@ -19,4 +20,3 @@ Basic authentication with username and password or remote API key belonging to t
     "status": "OK"
 }
 }}}
-
