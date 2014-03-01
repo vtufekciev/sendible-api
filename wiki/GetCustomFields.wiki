@@ -12,7 +12,7 @@ GET
 
 To retrieve actual values for a given entity, include the following two optional parameters:
  * {{{include_values}}}: Set to true to include values for each field.
- * {{{identifier}}}: The ID of the entity to retrieve. This represents {{{user_id}}}, {{{contact_id}}} or {{{service_id}}}.
+ * {{{identifier}}}: The ID of the entity to retrieve. This represents {{{user_id}}}, {{{contact_id}}} or {{{account_id}}}.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
