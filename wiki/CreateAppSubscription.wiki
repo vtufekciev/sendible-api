@@ -8,7 +8,7 @@ POST
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{object_name}}}: Required. Valid values are {{{Contact}}}.
+ * {{{object_name}}}: Required. Valid values are {{{Contact}}}, {{{SMSIn}}}.
  * {{{event_name}}}: Required. Valid values are {{{Create}}}, {{{Update}}}, {{{Delete}}}.
  * {{{verification_code}}}: Required. This parameter and value will be passed to your callback URL for verification. 
  * {{{callback_url}}}: Required. This is the URL that Sendible will POST to when the event fires.
