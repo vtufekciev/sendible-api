@@ -13,6 +13,7 @@ Basic authentication with username and password or remote API key belonging to t
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{filter}}}: Optional. The search string used to filter results by name.
  * {{{service_type}}}: Optional. The type of service to search for. E.g. {{{emailautoresponder}}}.
+ * {{{include_properties}}}: Optional. Set this to {{{true}}} to have service properties/parameters included in results.
  * {{{per_page}}}: Optional.  The number of results to return per page.
  * {{{page}}}: Optional. The page number to be returned.
 
