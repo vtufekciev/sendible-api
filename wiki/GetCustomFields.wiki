@@ -9,6 +9,7 @@ GET
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{category}}}: The category of fields to retrieve. Valid values are {{{user}}}, {{{contact}}} or {{{account}}}.
+ * {{{field_type}}}: Optional. Filter by fields of a certain type. E.g. {{{date}}}.
 
 To retrieve actual values for a given entity, include the following two optional parameters:
  * {{{include_values}}}: Set to true to include values for each field.
