@@ -1,7 +1,7 @@
 To delete an add-on, make a DELETE call using basic authentication.
 
 ====URL:====
-http://sendible.com/api/v2/add_on.json
+http://sendible.com/api/v2/add_ons.json
 
 ====HTTP Methods:====
 DELETE
