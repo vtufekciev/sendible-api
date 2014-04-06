@@ -11,8 +11,9 @@ POST
  * {{{step}}}: The step of the wizard. Set this to {{{complete}}} once the wizard has been processed. 
 Other options are {{{step_1}}, {{{step_2}}}.
 
-====If {{{step}}} is {{{step_1}}}====
 Include these parameters:
+
+====If {{{step}}} is {{{step_1}}}====
 * {{{business_name}}}: The name of the business.
 * {{{timezone}}}:  The timezone offset value.
 * {{{timezone_name}}}: The name of the timezone. 
