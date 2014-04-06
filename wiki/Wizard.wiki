@@ -1,0 +1,19 @@
+To update the wizard status, make a POST or a GET call using basic authentication.
+
+====URL:====
+http://sendible.com/api/v2/wizard.json
+
+====HTTP Methods:====
+POST/GET
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{status}}}: The status of the wizard. Set this to {{{complete}}} once the wizard has been processed.
+
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Success Response:====
+{{{
+{"status": "OK"}
+}}}
