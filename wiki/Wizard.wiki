@@ -9,7 +9,7 @@ POST
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{step}}}: The step of the wizard. Set this to {{{complete}}} once the wizard has been processed. 
-Other options are {{{step_1}}, {{{step_2}}}.
+Other options are {{{step_1}}}, {{{step_2}}}.
 
 Include these parameters:
 
