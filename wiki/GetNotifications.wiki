@@ -4,7 +4,7 @@ To retrieve notifications for a user, make an authenticated GET request.
 http://sendible.com/api/v2/notifications.json
 
 ====HTTP Methods:====
-POST
+GET
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
