@@ -8,7 +8,7 @@ GET
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
-
+ * {{{timezone}}}: Optional. Pass the timezoneOffsetClient value from the browser. This will be used to determine if the user's browser timezone differs from that in their profile preferences. 
 
 ====Authentication:====
 Use the access_token that's retrieved after a call to http://sendible.com/api/v2/auth.
