@@ -11,7 +11,8 @@ Basic authentication with username and password or remote API key belonging to t
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{is_read}}}: Set to 1 if the notification has been read or 0 otherwise.
+ * {{{notification_id}}}: The id or id's of the notification(s) to update. To update multiple notifications at once, separate the notification_id's with commas.
+ * {{{is_read}}}: Set to 1 if the notification has been read or 0 otherwise. Note: 
 
 ====Success Response:====
 {{{
