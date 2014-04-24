@@ -14,6 +14,7 @@ PUT
 day_index of 0 represents Monday. day_index of 6 is Sunday.
 For example: 0|11|30,2|14|44 represents: Monday at 11.30, Wednesday at 2.44pm. 
  * {{{contributors}}}:  Optional. A comma separated lists of user IDs representing users that can contribute to this queue.
+ * {{{can_repeat}}}:  Please use 1 if messages can repeat, otherwise 1.
 
  
 ====Authentication:====
