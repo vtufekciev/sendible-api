@@ -26,9 +26,4 @@ Basic authentication with username and password or remote API key belonging to t
 {{{
 {"result":"Error no ID"}
 {"result":"Error no Sentiment or Relevancy"}
-
-<error>
-<type>InvalidUsernamePassword</type>
-<message>Username/password is invalid.</message>
-</error>
 }}}
