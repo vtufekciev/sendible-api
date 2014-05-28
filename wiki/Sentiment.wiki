@@ -9,7 +9,7 @@ GET
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{account_id}}}: The mention term id, retrieved using the [GetMentionTerms] call. Can have more than one mention by separating the mentions by commas.
+ * {{{account_id}}}: One or more mention terms ID, retrieved using the [GetMentionTerms] call. Can have more than one mention by separating the mentions by commas.
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
