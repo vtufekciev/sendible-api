@@ -19,58 +19,28 @@ Basic authentication with username and password or remote API key belonging to t
 {{{
 [
 {
-	"type" : "twittersearch",
-	"title" : "RT @Gazelasemstyles: VAI QUE ESSA MACUMBA É VERDADE #1DWelcomeToBrazil http://t.co/1gwy2gl902",
-	"term" : "#1DWelcomeToBrazil",
-	"username" : "ju ?",
-	"sentiment" : 0,
-	"domain" : "twitter.com",
-	"created_at_client" : "Wed May 28 03:23:45 +0000 2014",
-	"id" : 471491993538150400,
-	"description" : "",
-	"content" : "",
-	"link" : "http://twitter.com/burnttbizzle",
-	"userlink" : "http://twitter.com/burnttbizzle",
-	"userimage" : "http://pbs.twimg.com/profile_images/471498954106892289/QprRViwG_normal.png",
-	"source" : "twitter",
-	"favicon" : "http://www.google.com/s2/favicons?domain=twitter.com",
-	"nextpage" : "471404482887426047"
+	"feed_url" : "surface pro",
+	"user_id" : 99583,
+	"id" : 26407,
+	"feed_type" : "search",
+	"feed_name" : "surface pro",
+	"created_at" : "2014/05/23 15:23:57 +0000"
 },
 {
-	"type" : "twittersearch",
-	"title" : "RT @StarGirl_1D: Tipo, eu aposto que o Zayn tá dormindo, ou ele tá moscando legal lá. Pq vcs sabem, ele é um vampiro. #1DWelcomeToBrazil",
-	"term" : "#1DWelcomeToBrazil",
-	"username" : "? Mrs Tomlinson ?",
-	"sentiment" : 0,
-	"domain" : "twitter.com",
-	"created_at_client" : "Wed May 28 03:21:10 +0000 2014",
-	"id" : 471491341730721792,
-	"description" : "",
-	"content" : "",
-	"link" : "http://twitter.com/Tommo_ddl",
-	"userlink" : "http://twitter.com/Tommo_ddl",
-	"userimage" : "http://pbs.twimg.com/profile_images/470406094884323328/FLTp_C00_normal.png",
-	"source" : "twitter",
-	"favicon" : "http://www.google.com/s2/favicons?domain=twitter.com",
-	"nextpage" : "471404482887426047"
+	"feed_url" : "hello",
+	"user_id" : 99583,
+	"id" : 26404,
+	"feed_type" : "search",
+	"feed_name" : "hello",
+	"created_at" : "2014/05/23 13:38:37 +0000"
 },
 {
-	"type" : "twittersearch",
-	"title" : "Don't miss??? ??This lovely Clip? http://t.co/6ujd6qUWIf     #KXIPvsCSK  #1DWelcomeToBrazil  #BadPrequels  #LeMag",
-	"term" : "#1DWelcomeToBrazil",
-	"username" : "hager ahmed",
-	"sentiment" : 0,
-	"domain" : "twitter.com",
-	"created_at_client" : "Wed May 28 02:20:35 +0000 2014",
-	"id" : 471476095091752961,
-	"description" : "",
-	"content" : "",
-	"link" : "http://twitter.com/hagerr94",
-	"userlink" : "http://twitter.com/hagerr94",
-	"userimage" : "http://pbs.twimg.com/profile_images/449695501152026624/eu7zK0zZ_normal.png",
-	"source" : "twitter",
-	"favicon" : "http://www.google.com/s2/favicons?domain=twitter.com",
-	"nextpage" : "471404482887426047"
+	"feed_url" : "#1DWelcomeToBrazil",
+	"user_id" : 99583,
+	"id" : 26109,
+	"feed_type" : "search",
+	"feed_name" : "#1DWelcomeToBrazil",
+	"created_at" : "2014/05/07 14:01:02 +0000"
 }
 ]
 }}}
