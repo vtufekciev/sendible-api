@@ -72,42 +72,6 @@ Basic authentication with username and password or remote API key belonging to t
 	"source" : "twitter",
 	"favicon" : "http://www.google.com/s2/favicons?domain=twitter.com",
 	"nextpage" : "471404482887426047"
-},
-{
-	"type" : "twittersearch",
-	"title" : "????This Clip??plz https://t.co/01n3REqOdJ … … … … …   #KXIPvsCSK  #1DWelcomeToBrazil  #BadPrequels  #LeMag",
-	"term" : "#1DWelcomeToBrazil",
-	"username" : "hager ahmed",
-	"sentiment" : 0,
-	"domain" : "twitter.com",
-	"created_at_client" : "Wed May 28 02:20:17 +0000 2014",
-	"id" : 471476021087453184,
-	"description" : "",
-	"content" : "",
-	"link" : "http://twitter.com/hagerr94",
-	"userlink" : "http://twitter.com/hagerr94",
-	"userimage" : "http://pbs.twimg.com/profile_images/449695501152026624/eu7zK0zZ_normal.png",
-	"source" : "twitter",
-	"favicon" : "http://www.google.com/s2/favicons?domain=twitter.com",
-	"nextpage" : "471404482887426047"
-},
-{
-	"type" : "twittersearch",
-	"title" : "RT @WifeOfHarry_: Sdds de usar essa tag<br />#1DWelcomeToBrazil  :/ <br />Zayn &amp; Louis<br />Niall and Selena <br />#1DNewSongIWillSurvive",
-	"term" : "#1DWelcomeToBrazil",
-	"username" : "Nicole Wetzel",
-	"sentiment" : 0,
-	"domain" : "twitter.com",
-	"created_at_client" : "Wed May 28 01:15:17 +0000 2014",
-	"id" : 471459661250854912,
-	"description" : "",
-	"content" : "",
-	"link" : "http://twitter.com/nick_carolina99",
-	"userlink" : "http://twitter.com/nick_carolina99",
-	"userimage" : "http://pbs.twimg.com/profile_images/464056952608538624/lJgNV50x_normal.jpeg",
-	"source" : "twitter",
-	"favicon" : "http://www.google.com/s2/favicons?domain=twitter.com",
-	"nextpage" : "471404482887426047"
 }
 ]
 }}}
