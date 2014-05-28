@@ -1,4 +1,4 @@
-To retrieve a list of the mentions for each day in the last two weeks for a one or more mentions. Make a *GET* call using basic authentication.
+To retrieve a list of the mentions for each day in the last two weeks for a one or more mentions. Includes a breakdown of negative and positive sentiment. To get neutral sentiment subtract negative and positive sentiment from the total. Make a *GET* call using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v2/buzzOverTime
