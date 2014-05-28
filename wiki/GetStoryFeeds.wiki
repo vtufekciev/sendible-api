@@ -3,7 +3,6 @@ Make a *GET* call using basic authentication.
 
 ====URL:====
 http://sendible.com/api/v2/storyFeed
-http://build.sendible.com/api/v2/?username=alexsendible&access_token=2b931e022a9926054205b8a6b8cef55d4f0dc6e7&search=&feed_type=search&application_id=sendible_global&total=10
 ====HTTP Methods:====
 GET
 
