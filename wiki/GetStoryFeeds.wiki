@@ -3,7 +3,7 @@ Get Feeds or Previous Searches for Twitter/Facebook Search.
 Make a *GET* call using basic authentication.
 
 ====URL:====
-http://sendible.com/api/v2/storyFeed
+http://sendible.com/api/v2/storyFeeds
 ====HTTP Methods:====
 GET
 
