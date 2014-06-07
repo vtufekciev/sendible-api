@@ -8,12 +8,14 @@ GET
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{account_id}}}: Search query
+ * {{{account_id}}}: Search query, in text form. 
  * {{{results_per_page}}}: Results to show on each page (maximum of 100)
  * {{{max_id}}}: Show only results up to this ID, used to see older results
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+
 
 ====Success Response:====
 {{{
