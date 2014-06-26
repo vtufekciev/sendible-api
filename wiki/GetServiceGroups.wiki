@@ -21,6 +21,22 @@ For example, using the results below, if a user wants to add a service, you woul
 window.open("http://sendible.com/api/v2/connect?service_id=19");
 }}}
 
+You should add an event listener to your page to receive a notification when the services has been added, similar to the following:
+{{{
+window.addEventListener("message", receiveMessage, false);
+
+function receiveMessage(event)
+	{
+	   if (event.origin !== api_url){
+	    	return;
+		}
+		else {
+			console.log(event);
+		        alert(event.data.status);
+		}
+	}
+}}}
+
 Once the service has been added, the window will be closed and the parameters will be passed back to your calling page.
 
 ====Success Response:====
