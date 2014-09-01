@@ -17,7 +17,7 @@ None.
 {{{
 {
     "stylesheet_url": "http://login.tavsy.com/styling?site_name=Tavsy&type=webapp",
-    "api_url": "http://login.tavsy.com",
+    "api_endpoint": "http://login.tavsy.com",
     "site_code": "Tavsy",
     "is_wl": true,
     "site_name": "Tavsy",
