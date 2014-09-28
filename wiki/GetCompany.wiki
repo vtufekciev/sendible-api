@@ -44,6 +44,28 @@ If this is a white label company, you'll receive the following additional fields
     "contact_us_url": "http://support.mysite.com",
     "ga_tracking_code": "UA-47698035-1",
     "html_widget_code": "<div>Hello world</div>",
-    "custom_css": ".body {color: red;} div {color: green;}"
+    "custom_css": ".body {color: red;} div {color: green;}",
+    "menus": [
+        {
+            "name": "Google Apps",
+            "submenus": [
+                {
+                    "name": "Calendar",
+                    "url": "http://apps.google.com/calendar",
+                    "type": "iframe"
+                },
+                {
+                    "name": "Mail",
+                    "url": "http://apps.google.com/mail",
+                    "type": "url"
+                },
+                {
+                    "name": "Drive",
+                    "url": "http://apps.google.com/drive",
+                    "type": "iframe"
+                }
+            ]
+        }
+    ]
 }
 }}}
