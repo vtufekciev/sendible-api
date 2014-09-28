@@ -26,7 +26,28 @@ Optional for white labels:
  * {{{html_widget_code}}}: Optional. The HTML widget code that is appended to the site.
  * {{{theme}}}: Optional. The name of the theme to be applied. E.g. {{smoothness}}
  * {{{custom_css}}}: Optional. The custom CSS code to be applied to the white label site along with the theme.
-
+ * {{{menus}}}: Optional. A JSON object array containing the menu structure. For example: {{{[
+        {
+            "name": "Google Apps",
+            "submenus": [
+                {
+                    "name": "Calendar",
+                    "url": "http://apps.google.com/calendar",
+                    "type": "iframe"
+                },
+                {
+                    "name": "Mail",
+                    "url": "http://apps.google.com/mail",
+                    "type": "url"
+                },
+                {
+                    "name": "Drive",
+                    "url": "http://apps.google.com/drive",
+                    "type": "iframe"
+                }
+            ]
+        }
+]}}}
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
