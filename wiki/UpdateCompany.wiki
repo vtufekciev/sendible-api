@@ -19,6 +19,13 @@ All parameters are optional:
  * {{{global_url_shortener_login}}}: Optional. If supported, you can provide the user's bit.ly username.
  * {{{global_url_shortener_key}}}: Optional. If supported, you can provide the user's bit.ly api key.
 
+Optional for white labels:
+ * {{{language}}}: Optional. The default language code for this white label. E.g. {{{en}}} or {{{es}}}.
+ * {{{contact_us_url}}}: Optional. The help URL for this white label site.
+ * {{{ga_tracking_code}}}: Optional. The Google Analytics tracking code.
+ * {{{html_widget_code}}}: Optional. The HTML widget code that is appended to the site.
+
+
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
 
