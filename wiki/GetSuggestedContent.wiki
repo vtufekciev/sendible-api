@@ -1,0 +1,19 @@
+The user content endpoint is a read-only resource used for receiving content recommendations for a given user or topic. It returns a JSON array of content items represented by JSON objects as detailed below.
+
+====URL:====
+http://sendible.com/api/v2/suggested_content.json
+
+====HTTP Methods:====
+GET
+
+====Parameters:====
+ * {{{application_id}}}: Your application id from http://sendible.com/developers.
+ * {{{topics}}}: Optional. Set this parameter to return results for a set of topics, separated by commas. These must be valid topics and are case sensitive, returned by this call: [GetSuggestedTopics]
+
+====Authentication:====
+Basic authentication with username and password or remote API key belonging to the Sendible user.
+
+====Success Response:====
+{{{
+
+}}}
