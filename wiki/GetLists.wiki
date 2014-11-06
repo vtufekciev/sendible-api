@@ -10,6 +10,8 @@ GET
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{type}}}: Optional. {{{all}}}, {{{owner}}}, {{{contributor}}} or {{{consumer}}}. 
  * {{{list_type}}}: Optional. {{{mixed}}}, {{{social}}}, {{{sms}}} or {{{email}}}. To filter by multiple list types, separate with commas. E.g. {{{sms}}},{{{email}}}.
+ * {{{per_page}}}: Optional. The number of lists to return per page.
+ * {{{page}}}: Optional. The page number to return.
  
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
