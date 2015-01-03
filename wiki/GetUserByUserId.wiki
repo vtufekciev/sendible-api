@@ -32,7 +32,19 @@ Basic authentication with username and password or remote API key belonging to t
     "parent_user_id": null,
     "login": "xpxaaaaaa",
     "email": "infobbbaaa123@sendible.com",
-    "permission_profile":{"profile_name":"Default","id":2}
+    "permission_profile":{"profile_name":"Default","id":2},
+    "manager_of": [
+        {
+            "id": 1234,
+            "login": "john1",
+            "fullname": "John Smith"
+        },
+        {
+            "id": 1235,
+            "login": "john2",
+            "fullname": "John Jones"
+        }
+      ]
 }
 }}}
 
