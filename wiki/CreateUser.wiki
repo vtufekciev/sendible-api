@@ -17,6 +17,7 @@ POST
  * {{{managed_by_id}}}: Optional. The user ID of the user that manages this user. Default: None.
  * {{{approval_from_ids}}}: Optional. A comma-separated list of user ID's that need to approve this user's content before it is published.
  * {{{permission_profile_id}}}: Optional. The permission profile ID to set for the user. 
+ * {{{manager_of}}}: Optional. A comma separated list of user IDs that this user can manage. 
 
 
 ====Authentication:====
