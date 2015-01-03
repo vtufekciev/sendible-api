@@ -15,6 +15,7 @@ PUT
  * {{{login}}}: The username of the user.
  * {{{password}}}: Optional. The password of the user.
  * {{{profile}}}: Either {{{administrator}}}, {{{team member}}} or {{{client}}}.
+ * {{{manager_of}}}: Optional. A comma separated list of user IDs that this user can manage. 
 
 Additional optional parameters:
  * {{{managed_by_id}}}: Optional. The user ID of the user that manages this user. Default: None.
