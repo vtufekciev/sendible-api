@@ -35,14 +35,18 @@ Basic authentication with username and password or remote API key belonging to t
     "permission_profile":{"profile_name":"Default","id":2},
     "manager_of": [
         {
-            "id": 1234,
-            "login": "john1",
-            "fullname": "John Smith"
+            "user": {
+              "id": 1234,
+              "login": "john1",
+              "fullname": "John Smith"
+            }
         },
         {
-            "id": 1235,
-            "login": "john2",
-            "fullname": "John Jones"
+            "user": {
+               "id": 1235,
+               "login": "john2",
+              "fullname": "John Jones"
+             }
         }
       ]
 }
