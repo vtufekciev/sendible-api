@@ -10,6 +10,23 @@ GET
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
  * {{{profile}}}: Optional. The type of profile to filter users with. Valid values are: {{{all}}}, {{{Team Member}}}, {{{Client}}}, {{{Administrator}}}, {{{Inactive}}}, {{{Active}}} or a comma separated list of permission profile IDs.
  * {{{filter}}}: Optional. A search string that can be used to filter results. 
+ * {{{advanced_filter}}}: Optional. A JSON string in the following format: 
+{{{
+{
+    "contains": "",
+    "created_after": "2012-01-01",
+    "created_before": "2020-12-21",
+    "custom_fields": [
+        {
+            "name": "age",
+            "operator": "<",
+            "value": 12
+            
+
+        }
+    ]
+}
+}}}
  * {{{per_page}}}: Optional. The number of results to return per page. Default is {{{2000}}}. 
  * {{{page}}}: Optional. The page number to return results for. 
 
