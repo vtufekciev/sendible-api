@@ -38,6 +38,7 @@ Additional optional parameters:
  * {{{photo_id}}}: Optional. The ID of the photo returned from the [UploadMedia] call.
  * {{{desktop_notifications}}}: Optional. Set to 1 if enabled, or 0 if disabled.
  * {{{remove_url}}}: Optional. Set to 1 if enabled, or 0 if disabled.
+ * {{{color}}}: Optional. Set this to a hex color. E.g. {{{#ffffff}}} 
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
