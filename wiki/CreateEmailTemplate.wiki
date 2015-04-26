@@ -1,4 +1,4 @@
-To create a new URL parameter template for the logged in user, make a POST request to this API endpoint. 
+To create a new template for the logged in user, make a POST request to this API endpoint. 
 
 ====URL:====
 http://sendible.com/api/v2/template.json
