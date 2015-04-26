@@ -39,6 +39,7 @@ Additional optional parameters:
  * {{{desktop_notifications}}}: Optional. Set to 1 if enabled, or 0 if disabled.
  * {{{remove_url}}}: Optional. Set to 1 if enabled, or 0 if disabled.
  * {{{color}}}: Optional. Set this to a hex color. E.g. {{{#ffffff}}} 
+ * {{{bitly_pro_domain}}}: Optional. Set this to the bit.ly pro domain. 
 
 ====Authentication:====
 Basic authentication with username and password or remote API key belonging to the Sendible user.
@@ -58,7 +59,8 @@ Basic authentication with username and password or remote API key belonging to t
     "user_status": "Active (Premium)",
     "parent_user_id": null,
     "login": "xpxaaaaaa",
-    "email": "infobbbaaa123@sendible.com"
+    "email": "infobbbaaa123@sendible.com",
+    "bitly_pro_domain": "snd.bl"
 }
 }}}
 
