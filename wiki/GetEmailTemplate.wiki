@@ -1,7 +1,7 @@
 To retrieve an email template for a given user, make a GET call using basic authentication with the template ID.
 
 ====URL:====
-http://sendible.com/api/v2/templates.json
+http://sendible.com/api/v2/template.json
 
 ====HTTP Methods:====
 GET
