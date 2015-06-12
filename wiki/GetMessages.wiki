@@ -11,7 +11,7 @@ GET
 
 ====Parameters:====
  * {{{application_id}}}: Your application id from http://sendible.com/developers.
- * {{{status}}}: Optional. The message status. Default is {{{Pending}}}. Possible values are {{{Pending}}}, {{{Draft}}} or {{{Sent}}}.
+ * {{{status}}}: The message status. Default is {{{Pending}}}. Possible values are {{{Pending}}}, {{{Draft}}} or {{{Sent}}}.
  * {{{filter}}}: Optional. Filter messages by keyword. 
  * {{{per_page}}}: Optional. The number of messages to return per page.
  * {{{page}}}: Optional. The page number to return. 
