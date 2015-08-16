@@ -33,6 +33,7 @@ POST
  * {{{preference}}}: Optional. {{{Email}}} or {{{SMS}}}.
  * {{{bio}}}: Optional. The contact's bio information.
  * {{{website_url}}}: Optional. The contact's website URL.
+ * {{{list_ids}}}: Optional. A comma separated mailing list ID's that this contact will be added to.
  * {{{contact_type}}}: Optional. Either {{{Lead}}}, {{{Account}}} or {{{Opportunity}}}.
  * {{{lead_source}}}: Optional. One of the following:
 {{{
